@@ -122,16 +122,6 @@ nav:
     #   - 'Read Message Store': 'messaging/sms/v2/message-store.md'
     #   - 'Event Notifications': 'messaging/sms/v2/events.md'
     #   - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
-    # - 'SMS Thread Messaging':
-    #   - 'Overview': 'messaging/sms/threads/index.md'
-    #   - 'Configurations': messaging/sms/threads/configurations.md
-    #   - 'Send Thread Messages': 'messaging/sms/threads/send-thread-sms.md'
-    #   - 'Threads Handling': 'messaging/sms/threads/threads-handling.md'
-    #   - 'Messages Handling': 'messaging/sms/threads/messages-handling.md'
-    #   - 'Notes Handling': 'messaging/sms/threads/notes-handling.md'
-    #   - 'Event Notifications': 'messaging/sms/threads/events.md'
-    #   - 'Migration instruction': 'messaging/sms/threads/migration.md'
-      # - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
     - 'Enhanced Business SMS':
       - 'Best Practices': 'messaging/sms/best-practices.md'
       - 'SMS Enablement & Configuration': 'messaging/sms/sms-requirements.md'
@@ -152,6 +142,16 @@ nav:
       - 'Opt-in / Opt-out': 'messaging/sms/high-volume/opt-out.md'
       - 'Event Notifications': 'messaging/sms/high-volume/events.md'
       - 'Errors Handling': 'messaging/sms/high-volume/handling-errors.md'
+    - 'Message Threads':
+      - 'Overview': 'messaging/sms/threads/index.md'
+      - 'Configurations': messaging/sms/threads/configurations.md
+      - 'Send Thread Messages': 'messaging/sms/threads/send-thread-sms.md'
+      - 'Threads Handling': 'messaging/sms/threads/threads-handling.md'
+      - 'Messages Handling': 'messaging/sms/threads/messages-handling.md'
+      - 'Notes Handling': 'messaging/sms/threads/notes-handling.md'
+      - 'Event Notifications': 'messaging/sms/threads/events.md'
+      # - 'Migration instruction': 'messaging/sms/threads/migration.md'
+      # - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
     - 'Fax':
       - 'Sending Faxes': 'messaging/fax/sending-faxes.md'
       - 'Multipart Formats': 'messaging/fax/fax-multipart-formats.md'
