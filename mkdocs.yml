@@ -115,13 +115,6 @@ nav:
   - 'SMS and Fax':
     - 'Overview': 'messaging/index.md'
     - 'Getting Started': 'messaging/quick-start.md'
-    # - 'SMS Batch Messaging':
-    #   - 'Overview': 'messaging/sms/v2/index.md'
-    #   - 'Best Practices': 'messaging/sms/v2/best-practices.md'
-    #   - 'Send Message Batches': 'messaging/sms/v2/send-sms-batches.md'
-    #   - 'Read Message Store': 'messaging/sms/v2/message-store.md'
-    #   - 'Event Notifications': 'messaging/sms/v2/events.md'
-    #   - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
     - 'Enhanced Business SMS':
       - 'Best Practices': 'messaging/sms/best-practices.md'
       - 'SMS Enablement & Configuration': 'messaging/sms/sms-requirements.md'
@@ -131,8 +124,13 @@ nav:
       - 'Error Handling': 'messaging/sms/sms-errors.md'
       #- 'Valid SMS Numbers': 'messaging/sms/valid-sms-numbers.md' # Explained and demonstrated in Send SMS MMS example codes
       # - 'Migration Guide': 'messaging/sms/migration-guide.md'
-    - 'SMS Consent':
-      - 'Consent management': 'messaging/sms/messaging-consent-management.md'
+    # - 'Message Batches':
+    #   - 'Overview': 'messaging/sms/v2/index.md'
+    #   - 'Best Practices': 'messaging/sms/v2/best-practices.md'
+    #   - 'Send Message Batches': 'messaging/sms/v2/send-sms-batches.md'
+    #   - 'Read Message Store': 'messaging/sms/v2/message-store.md'
+    #   - 'Event Notifications': 'messaging/sms/v2/events.md'
+    #   - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
     - 'High Volume SMS':
       - 'Overview': 'messaging/sms/high-volume/index.md'
       - 'Best Practices': 'messaging/sms/high-volume/best-practices.md'
@@ -152,6 +150,8 @@ nav:
       - 'Event Notifications': 'messaging/sms/threads/events.md'
       # - 'Migration instruction': 'messaging/sms/threads/migration.md'
       # - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
+    - 'SMS Consent':
+      - 'Consent management': 'messaging/sms/messaging-consent-management.md'
     - 'Fax':
       - 'Sending Faxes': 'messaging/fax/sending-faxes.md'
       - 'Multipart Formats': 'messaging/fax/fax-multipart-formats.md'
@@ -407,6 +407,8 @@ nav:
         - "Specific Message Batch Event": 'notifications/event-filters/specific-message-batch.md'
         - "Batch Messages Event": 'notifications/event-filters/batch-messages.md'
         - "Batch Message Opt-Out Event": 'notifications/event-filters/batch-message-optout.md'
+      - "Message Threads events":
+        - "Message Thread events": 'notifications/event-filters/thread-messaging-events.md'
       - "Team Messaging events":
         - "Post Message Event": 'notifications/event-filters/post.md'
         - "Chats Event": 'notifications/event-filters/chat.md'
