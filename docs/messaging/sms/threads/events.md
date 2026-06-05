@@ -1,8 +1,8 @@
 # Thread messaging event notifications
 
-Push notifications help to keep your application informed about SMS thread messaging activities. Any SMS handler assigned to a common resource to handle thread messages can subscribe to the [RingCentral push notification service](../notifications/index.md) to receive events.
+Push notifications help to keep your application informed about SMS thread messaging activities. Any SMS handler assigned to a common resource to handle thread messages can subscribe to the [RingCentral push notification service](../../../notifications/index.md) to receive events.
 
-To receive thread messaging notification events, [subscribe for one or more event filters](../notifications/event-filters/thread-messaging-event-filter.md).
+To receive thread messaging notification events, [subscribe for one or more event filters](../../../../notifications/event-filters/thread-messaging-events/).
 
 There are two event filters:
 

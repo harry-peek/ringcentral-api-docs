@@ -111,7 +111,7 @@ Using the messaging system, the assistant or application sends these reminders i
 === "Python"
     ```python
     {!> code-samples/messaging/code-snippets/send-batches-personalized-sms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-6]!}
+    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5]!}
     ```
 
 === "PHP"
@@ -142,19 +142,19 @@ Using group messaging, the teacher can send targeted messages to each student gr
 === "Python"
     ```python
     {!> code-samples/messaging/code-snippets/send-batches-group-sms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py !}
+    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5]!}
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php !}
+    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-13]!}
     {!> code-samples/messaging/code-snippets/send-batches-group-sms.php [ln:2-]!}
     ```
 
 === "Ruby"
     ```ruby
     {!> code-samples/messaging/code-snippets/send-batches-group-sms.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb !}
+    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4]!}
     ```
 
 ### Use Case 4: Retailer SMS promotion campaign with new product image
@@ -171,7 +171,7 @@ A retail clothing brand is launching a new seasonal jacket and wants to promote 
 === "Python"
     ```python
     {!> code-samples/messaging/code-snippets/send-batches-mms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-6]!}
+    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5]!}
     ```
 
 === "PHP"
