@@ -17,6 +17,8 @@ Create the first reply to a post by passing the parent post ID in the `parentPos
 
 If `parentPostId` identifies a reply that is already in a thread, the new post is added to the original parent post's thread.
 
+## Adding a reply to threads
+
 If your app already has a thread ID, you can add a reply by passing `threadId` instead.
 
 ```json
@@ -56,6 +58,8 @@ GET /team-messaging/v1/chats/{chatId}/threads/{threadId}/posts?pageToken={pageTo
 
 The following example finds the authenticated user's personal chat, creates a parent post, creates a threaded reply using `parentPostId`, and then lists posts from the returned `threadId`.
 
-```javascript
-{! code-samples/team-messaging/threaded-posts.js !}
-```
+=== "JavaScript"
+
+    ```javascript
+    {!> code-samples/team-messaging/threaded-posts.js !}
+    ```
