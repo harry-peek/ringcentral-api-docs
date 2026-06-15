@@ -10835,6 +10835,63 @@ In case the feature is available for the current user, <code>"available": true</
 <tr>
       <td class="method">
         
+        <a href="#" class="collapsed" data-bs-toggle="collapse" data-target="#readGlipThreadPostsNew" aria-expanded="true" aria-controls="readGlipThreadPostsNew">List Thread Posts</a> 
+        
+      </td>
+      <td class="description"><p>Returns a list of posts from the specified thread in a chat.</p></td>
+    </tr>
+    <tr>
+      <td class="endpoint" colspan="2">
+        <p>GET /team-messaging/v1/chats/{chatId}/threads/{threadId}/posts <a href="https://developers.ringcentral.com/api-reference/Posts/readGlipThreadPostsNew" class="external-link"><i class="fa fa-share"></i></a></p>
+	<div id="readGlipThreadPostsNew" class="collapse" aria-labelledby="readGlipThreadPostsNew">
+
+	  <table class="table api-index">
+	    <thead>
+	      <tr>
+	        <th scope="col">Name</th>
+		<th scope="col">Type</th>
+		<th scope="col">Default</th>
+		<th scope="col">Required</th>
+		<th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr>
+	      <td class="n">chatId</td>
+	      <td class="t">string</td>
+	      <td class="d"></td>
+	      <td class="r">True</td>
+	      <td class="de">Internal identifier of a chat</td>
+            </tr>
+<tr>
+	      <td class="n">threadId</td>
+	      <td class="t">string</td>
+	      <td class="d"></td>
+	      <td class="r">True</td>
+	      <td class="de">Identifier of a thread, in case post is a part of a thread</td>
+            </tr>
+<tr>
+	      <td class="n">pageToken</td>
+	      <td class="t">string</td>
+	      <td class="d"></td>
+	      <td class="r">False</td>
+	      <td class="de">Pagination token.</td>
+            </tr>
+<tr>
+	      <td class="n">recordCount</td>
+	      <td class="t">integer</td>
+	      <td class="d">30</td>
+	      <td class="r">False</td>
+	      <td class="de">Max number of posts to be fetched by one request (not more than 250)</td>
+            </tr>
+</tbody>
+          </table>
+</div>
+      </td>
+    </tr>
+<tr>
+      <td class="method">
+        
         <a href="#" class="collapsed" data-bs-toggle="collapse" data-target="#listGlipGroupPosts" aria-expanded="true" aria-controls="listGlipGroupPosts">Get Group Posts</a> 
         
       </td>
