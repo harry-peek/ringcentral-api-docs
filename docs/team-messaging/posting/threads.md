@@ -17,7 +17,7 @@ Create the first reply to a post by passing the parent post ID in the `parentPos
 
 If `parentPostId` identifies a reply that is already in a thread, the new post is added to the original parent post's thread.
 
-## Adding a reply to threads
+## Adding a reply to a thread
 
 If your app already has a thread ID, you can add a reply by passing `threadId` instead.
 
