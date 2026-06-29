@@ -21,13 +21,13 @@ Required permission(s): ReadAccounts
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-read-call-queues.js !}
+    --8<-- "code-samples/voice/call-queues-read-call-queues.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-read-call-queues.py !}
+    --8<-- "code-samples/voice/call-queues-read-call-queues.py"
     ```
 
 ### Sample response
@@ -72,13 +72,13 @@ Required permission(s): ReadAccounts
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-read-member-status-editable.js !}
+    --8<-- "code-samples/voice/call-queues-read-member-status-editable.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-read-member-status-editable.py !}
+    --8<-- "code-samples/voice/call-queues-read-member-status-editable.py"
     ```
 
 ### Sample response
@@ -114,13 +114,13 @@ Required permission(s): EditExtensions
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-enable-member-status-editable.js !}
+    --8<-- "code-samples/voice/call-queues-enable-member-status-editable.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-enable-member-status-editable.py !}
+    --8<-- "code-samples/voice/call-queues-enable-member-status-editable.py"
     ```
 
 
@@ -145,13 +145,13 @@ Required permission(s): ReadPresence
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-read-member-status.js !}
+    --8<-- "code-samples/voice/call-queues-read-member-status.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-read-member-status.py !}
+    --8<-- "code-samples/voice/call-queues-read-member-status.py"
     ```
 
 ### Sample response
@@ -212,13 +212,13 @@ Required permission(s): EditPresence
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-update-member-status.js !}
+    --8<-- "code-samples/voice/call-queues-update-member-status.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-update-member-status.py !}
+    --8<-- "code-samples/voice/call-queues-update-member-status.py"
     ```
 
 !!! Note
@@ -255,13 +255,13 @@ Required permission(s): EditPresence
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-update-extension-status.js !}
+    --8<-- "code-samples/voice/call-queues-update-extension-status.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-update-extension-status.py !}
+    --8<-- "code-samples/voice/call-queues-update-extension-status.py"
     ```
 
 !!! Note
@@ -310,13 +310,13 @@ Required permission(s): EditPresence
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues-update-extension-dnd.js !}
+    --8<-- "code-samples/voice/call-queues-update-extension-dnd.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues-update-extension-dnd.py !}
+    --8<-- "code-samples/voice/call-queues-update-extension-dnd.py"
     ```
 
 !!! Important

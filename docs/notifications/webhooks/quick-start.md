@@ -65,7 +65,7 @@ Select your preferred language below.
     Create a file called <tt>webhook-server.js</tt> using the contents below.
 
     ```javascript
-    {!> code-samples/webhooks/webhook-server.js !}
+    --8<-- "code-samples/webhooks/webhook-server.js"
     ```
 
     ### Create and edit webhook-notification.js
@@ -75,7 +75,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the DELIVERY_ADDRESS variable in the code below.
 
     ```javascript
-    {!> code-samples/webhooks/webhook-notification.js !}
+    --8<-- "code-samples/webhooks/webhook-notification.js"
     ```
 
     ### Run your code
@@ -105,7 +105,7 @@ Select your preferred language below.
     Create a file called <tt>webhook-server.py</tt> using the contents below.
 
     ```python
-    {!> code-samples/webhooks/webhook-server.py !}
+    --8<-- "code-samples/webhooks/webhook-server.py"
     ```
 
     ### Create and edit webhook-notification.py
@@ -115,7 +115,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the DELIVERY_ADDRESS variable in the code below.
 
     ```python
-    {!> code-samples/webhooks/webhook-notification.py !}
+    --8<-- "code-samples/webhooks/webhook-notification.py"
     ```
 
     ### Run your code
@@ -146,7 +146,7 @@ Select your preferred language below.
     Create a file called <tt>webhook-server.php</tt> using the contents below.
 
     ```php
-    {!> code-samples/webhooks/webhook-server.php !}
+    --8<-- "code-samples/webhooks/webhook-server.php"
     ```
 
     ### Create and edit webhook-notification.php
@@ -156,7 +156,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the $DELIVERY_ADDRESS variable in the code below.
 
     ```php
-    {!> code-samples/webhooks/webhook-notification.php !}
+    --8<-- "code-samples/webhooks/webhook-notification.php"
     ```
 
     ### Run your code
@@ -189,7 +189,7 @@ Select your preferred language below.
     Create a file called <tt>webhook-server.rb</tt> using the contents below.
 
     ```ruby
-    {!> code-samples/webhooks/webhook-server.rb !}
+    --8<-- "code-samples/webhooks/webhook-server.rb"
     ```
 
     ### Create and edit webhook-notification.rb
@@ -199,7 +199,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the DELIVERY_ADDRESS variable in the code below.
 
     ```ruby
-    {!> code-samples/webhooks/webhook-notification.rb !}
+    --8<-- "code-samples/webhooks/webhook-notification.rb"
     ```
 
     ### Run your code
@@ -236,7 +236,7 @@ Select your preferred language below.
     Edit `Program.cs` and overwrite its content with the code below. Create `Program.cs` if it does not already exist:
 
     ```c#
-    {!> code-samples/webhooks/webhook-server.cs !}
+    --8<-- "code-samples/webhooks/webhook-server.cs"
     ```
 
     #### Run ngrok to create a localhost tunnel
@@ -262,7 +262,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the DELIVERY_ADDRESS variable in the code below.
 
     ```c#
-    {!> code-samples/webhooks/webhook-notification.cs !}
+    --8<-- "code-samples/webhooks/webhook-notification.cs"
     ```
 
     #### Run your code
@@ -306,7 +306,7 @@ Select your preferred language below.
     Edit the `WebhookServer.java` with code below:
 
     ```Java
-    {!> code-samples/webhooks/WebhookServer.java !}
+    --8<-- "code-samples/webhooks/WebhookServer.java"
     ```
 
     ### Create a Java project (using Eclipse IDE)
@@ -359,7 +359,7 @@ Select your preferred language below.
     Copy the forwarding address, e.g. https://1058-69-181-202-32.ngrok-free.app, and paste it to your .env file. Or paste it directly into the DELIVERY_ADDRESS variable in the code below.
 
     ```java
-    {!> code-samples/webhooks/WebhookNotification.java !}
+    --8<-- "code-samples/webhooks/WebhookNotification.java"
     ```
 
     Now first run the WebhookServer app, then run the WebHookNotification app from Eclipse.

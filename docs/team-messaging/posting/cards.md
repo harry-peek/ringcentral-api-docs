@@ -18,25 +18,25 @@ Select your preferred language below.
 === "Javascript"
 
     ```JavaScript
-    {!> code-samples/team-messaging/post-card.js !}
+    --8<-- "code-samples/team-messaging/post-card.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/team-messaging/post-card.py !}
+    --8<-- "code-samples/team-messaging/post-card.py"
     ```
 
 === "PHP"
 
     ```PHP
-    {!> code-samples/team-messaging/post-card.php !}
+    --8<-- "code-samples/team-messaging/post-card.php"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/team-messaging/post-card.rb !}
+    --8<-- "code-samples/team-messaging/post-card.rb"
     ```
 
 The code samples above will all result in posting an adaptive card similar to the following:
@@ -54,7 +54,7 @@ There is no doubt that a more descriptive alert would be more useful to users. F
 To set the fallback text, add `fallbackText` to your adaptive card payload, as demonstrated below:
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/fallback-text.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/fallback-text.json"
 ```
 
 ## Keep learning

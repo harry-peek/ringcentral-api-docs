@@ -46,5 +46,5 @@ Event filter `/restapi/v1.0/account/{accountId}/phone-number?usageType=ContactCe
 ## Example
 
 ```json
-{!> code-samples/events/contact-center-phone-number.json !}
+--8<-- "code-samples/events/contact-center-phone-number.json"
 ```

@@ -65,5 +65,5 @@ Please note: If you specify that `sipData=true` then `presence?detailedTelephony
 ## Example
 
 ```json
-{!> code-samples/events/detailed-extension-presence-with-sip.json !}
+--8<-- "code-samples/events/detailed-extension-presence-with-sip.json"
 ```

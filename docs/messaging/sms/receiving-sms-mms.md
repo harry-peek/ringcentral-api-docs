@@ -104,8 +104,8 @@ To accomplish this, the application will leverage the RingCentral REST API and P
     Create a file named `receive-reply-sms.js`, then copy and paste the following code into the file.
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header-subscription.js !}
-    {!> code-samples/messaging/code-snippets/receive-reply-sms.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header-subscription.js"
+    --8<-- "code-samples/messaging/code-snippets/receive-reply-sms.js:10:"
     ```
 
 === "PHP"
@@ -122,8 +122,8 @@ To accomplish this, the application will leverage the RingCentral REST API and P
     Create a file named `receive-reply-sms.php`, then copy and paste the following code into the file.
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header-subscription.php [ln:1-17] !}
-    {!> code-samples/messaging/code-snippets/receive-reply-sms.php [ln:2-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header-subscription.php:1:17"
+    --8<-- "code-samples/messaging/code-snippets/receive-reply-sms.php:2:"
     ```
 
 === "Python"
@@ -139,8 +139,8 @@ To accomplish this, the application will leverage the RingCentral REST API and P
     Create a file named `receive-reply-sms.py`, then copy and paste the following code into the file.
 
     ```python
-    {!> code-samples/messaging/code-snippets/receive-reply-sms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5]!}
+    --8<-- "code-samples/messaging/code-snippets/receive-reply-sms.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:5"
     ```
 
 === "Ruby"
@@ -156,8 +156,8 @@ To accomplish this, the application will leverage the RingCentral REST API and P
     Create a file named `receive-reply-sms.rb`, then copy and paste the following code into the file.
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/receive-reply-sms.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4]!}
+    --8<-- "code-samples/messaging/code-snippets/receive-reply-sms.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```
 <br>
 !!! note "Running the code"
@@ -239,7 +239,7 @@ Let's edit the [example code above](#sample-code) to add a function to download 
     Edit the `receive-reply-sms.js` file by replacing the `subscription.on(subscription.events.notification, function(msg)` function and adding the `download_mms_attachments(attachments)` function below to the existing code.
 
     ```javascript
-    {!> code-samples/messaging/code-snippets/download-mms-attachment.js !}
+    --8<-- "code-samples/messaging/code-snippets/download-mms-attachment.js"
     ```
 
 === "PHP"
@@ -249,7 +249,7 @@ Let's edit the [example code above](#sample-code) to add a function to download 
     Edit the `receive-reply-sms.py` file by replacing the `subscribe_for_instant_messages_notification()` function and adding the `download_mms_attachment($attachments)` function below to the existing code.
 
     ```php
-    {!> code-samples/messaging/code-snippets/download-mms-attachment.php !}
+    --8<-- "code-samples/messaging/code-snippets/download-mms-attachment.php"
     ```
 
 === "Python"
@@ -259,7 +259,7 @@ Let's edit the [example code above](#sample-code) to add a function to download 
     Edit the `receive-reply-sms.py` file by replacing the `on_notification(message)` function and adding the `download_mms_attachments(attachments)` function below to the existing code.
 
     ```python
-    {!> code-samples/messaging/code-snippets/download-mms-attachment.py !}
+    --8<-- "code-samples/messaging/code-snippets/download-mms-attachment.py"
     ```
 
 === "Ruby"
@@ -269,5 +269,5 @@ Let's edit the [example code above](#sample-code) to add a function to download 
     Edit the `receive-reply-sms.rb` file by replacing the `subscribe_for_instant_messages_notification()` function and adding the `download_mms_attachments(attachments)` function below to the existing code.
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/download-mms-attachment.rb !}
+    --8<-- "code-samples/messaging/code-snippets/download-mms-attachment.rb"
     ```

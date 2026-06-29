@@ -1,6 +1,6 @@
 # Registering attendees for a webinar
 
-{! mdx_includes/webinar-beta-notice.md !}
+--8<-- "mdx_includes/webinar-beta-notice.md"
 
 The registration process and the corresponding set of API endpoints exists to not only help facilitate people attending your webinar, but also in helping you to manage the end-to-end pre-webinar experience of your attendees, including: signing up to attend, cancelling one's registration, and even the process of joining the webinar. 
 
@@ -17,7 +17,7 @@ To register a person for a webinar, one would need to create the webinar registr
 === "Javascript"
 
     ```js
-    {!> code-samples/webinar/inviting.js !}
+    --8<-- "code-samples/webinar/inviting.js"
     ```
 
 ### Using the `externalId` property to correlate a registrant within an external system

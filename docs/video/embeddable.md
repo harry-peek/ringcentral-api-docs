@@ -23,7 +23,7 @@ Developers creating their own RingCentral embeddable app using their own client 
 Click-to-schedule a meeting an be implemented by posting a `rc-adapter-message-request` message with the `/schedule-meeting` path. By ssending the meeting details, the widget will automatically pre-populate thee create meeting field with the correct info which can be reviewed and modified by the user before submisssion.
 
 ```javascript
-{!> code-samples/embeddable/create-meeting.js !}
+--8<-- "code-samples/embeddable/create-meeting.js"
 ```
 
 To learn more about the RingCentral Embeddable interfaces for creating meetings consult our [SDK docs for schedule a meeting](https://github.com/ringcentral/ringcentral-embeddable/blob/master/docs/control-widget.md#schedule-a-meeting).
@@ -33,7 +33,7 @@ To learn more about the RingCentral Embeddable interfaces for creating meetings 
 To receive a schedule meeting result event, you can subscribe to events using `window.addEventListner` and filtering on `rc-adapter-message-response` message type.
 
 ```javascript
-{!> code-samples/embeddable/schedule-meeting-result.js !}
+--8<-- "code-samples/embeddable/schedule-meeting-result.js"
 ```
 
 ### Listen and respond to a meeting status event
@@ -41,7 +41,7 @@ To receive a schedule meeting result event, you can subscribe to events using `w
 Get meeting status and permission:
 
 ```javascript
-{!> code-samples/embeddable/meeting-status.js !}
+--8<-- "code-samples/embeddable/meeting-status.js"
 ```
 
 ### Navigate to the Meetings tab in Embeddable
@@ -49,7 +49,7 @@ Get meeting status and permission:
 To open the Embeddable width and navigate to the meetings tab, call `window.postMessage` with message type `rc-adapter-navigate-to` and the `/meeting` path.
 
 ```javascript
-{!> code-samples/embeddable/meetings-tab.js !}
+--8<-- "code-samples/embeddable/meetings-tab.js"
 ```
 
 ### Sync meeting logs and recordings to remote system

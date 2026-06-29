@@ -88,7 +88,7 @@ Inside the iframe the user will first need to establish their identity by authen
 The OAuth process can be launched through a javascript command facilitated by a helper library created by RingCentral.
 
 ```js
-{!> code-samples/team-messaging/installer.js !}
+--8<-- "code-samples/team-messaging/installer.js"
 ```
 
 ??? hint "Check out the the Add-in App Helper on Github"
@@ -118,7 +118,7 @@ To complete the installation, the developer will instruct the target service, e.
 When the installation process is completed successfully, signal to the RingCentral desktop app that the install dialog can now be closed using the Javascript below, which toggles the enabled state of the dialog's submit/finish button.
 
 ```js
-{!> code-samples/team-messaging/close-installer.js !}
+--8<-- "code-samples/team-messaging/close-installer.js"
 ```
 
 ## Transmitting messages directly or acting as a proxy

@@ -59,41 +59,41 @@ The following code sample shows how to call the Message Store to display a list 
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js [ln:1-12] !}
-    {!> code-samples/messaging/code-snippets/message-store.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js:1:12"
+    --8<-- "code-samples/messaging/code-snippets/message-store.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/messaging/code-snippets/message-store.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/messaging/code-snippets/message-store.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-15] !}
-    {!> code-samples/messaging/code-snippets/message-store.php [ln:2-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php:1:15"
+    --8<-- "code-samples/messaging/code-snippets/message-store.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/message-store.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/messaging/code-snippets/message-store.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/messaging/code-snippets/message-store.cs !}
+    --8<-- "code-samples/messaging/code-snippets/message-store.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/messaging/code-snippets/message-store.java !}
+    --8<-- "code-samples/messaging/code-snippets/message-store.java"
     ```
 
 This example response shows the `to`, `from`, `type`, `readStatus`, `direction` and `subject` amongst other properties of an SMS message record from the message store:

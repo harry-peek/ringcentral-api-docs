@@ -19,5 +19,5 @@ A bot can also mention an entire team using this markdown syntax:
 Within the context of sending a message in Javascript, it might look like this:
 
 ```js
-{!> code-samples/team-messaging/mention.js !}
+--8<-- "code-samples/team-messaging/mention.js"
 ```

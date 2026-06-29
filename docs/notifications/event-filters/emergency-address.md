@@ -21,6 +21,6 @@ Event filter `/restapi/v1.0/account/{accountId}/device/{deviceId}/emergency-addr
 ## Example
 
 ```json
-{!> code-samples/events/emergency-address.json !}
+--8<-- "code-samples/events/emergency-address.json"
 ```
 

@@ -13,25 +13,25 @@ Select your preferred language below.
 === "Javascript"
 
     ```JavaScript
-    {!> code-samples/team-messaging/post-task.js !}
+    --8<-- "code-samples/team-messaging/post-task.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/team-messaging/post-task.py !}
+    --8<-- "code-samples/team-messaging/post-task.py"
     ```
 
 === "PHP"
 
     ```PHP
-    {!> code-samples/team-messaging/post-task.php !}
+    --8<-- "code-samples/team-messaging/post-task.php"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/team-messaging/post-task.rb !}
+    --8<-- "code-samples/team-messaging/post-task.rb"
     ```
 
 ## Tasks Schema

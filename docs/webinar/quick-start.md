@@ -1,6 +1,6 @@
 # RingCentral Webinar API Quick Start
 
-{! mdx_includes/webinar-beta-notice.md !}
+--8<-- "mdx_includes/webinar-beta-notice.md"
 
 !!! hint "**Calling the RingCentral API for the first time?** We recommend you try out [getting started experience](../getting-started/index.md)."
 
@@ -50,7 +50,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `webinar.js`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```js
-	{!> code-samples/webinar/quick-start.js !}
+	--8<-- "code-samples/webinar/quick-start.js"
 	```
 
     ### Run Your Code
@@ -74,7 +74,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `webinar.py`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```python
-    {!> code-samples/webinar/quick-start.py !}
+    --8<-- "code-samples/webinar/quick-start.py"
     ```
 
     ### Run Your Code
@@ -99,7 +99,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `webinar.php`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```php
-    {!> code-samples/webinar/quick-start.php !}
+    --8<-- "code-samples/webinar/quick-start.php"
     ```
 
     ### Run Your Code
@@ -122,7 +122,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `webinar.rb`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```ruby
-	{!> code-samples/webinar/quick-start.rb !}
+	--8<-- "code-samples/webinar/quick-start.rb"
     ```
 
     ### Run Your Code

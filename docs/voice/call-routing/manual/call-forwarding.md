@@ -45,37 +45,37 @@ The following code sample shows how to create a forwarding number object. The `i
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-forwarding.js !}
+    --8<-- "code-samples/voice/call-forwarding.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-forwarding.py !}
+    --8<-- "code-samples/voice/call-forwarding.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/call-forwarding.php !}
+    --8<-- "code-samples/voice/call-forwarding.php"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/call-forwarding.cs !}
+    --8<-- "code-samples/voice/call-forwarding.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/CreateForwardingNumber.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/CreateForwardingNumber.java"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/call-forwarding.rb !}
+    --8<-- "code-samples/voice/call-forwarding.rb"
     ```
 
 ## Read all Forwarding Numbers

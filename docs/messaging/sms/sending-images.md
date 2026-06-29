@@ -55,39 +55,39 @@ When creating a multipart message, it is important to remember that the root par
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js !}
-    {!> code-samples/messaging/code-snippets/send-mms.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/messaging/code-snippets/send-mms.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/messaging/code-snippets/send-mms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py!}
+    --8<-- "code-samples/messaging/code-snippets/send-mms.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php !}
-    {!> code-samples/messaging/code-snippets/send-mms.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/messaging/code-snippets/send-mms.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/send-mms.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/messaging/code-snippets/send-mms.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/messaging/code-snippets/send-mms.cs !}
+    --8<-- "code-samples/messaging/code-snippets/send-mms.cs"
     ```
 
 === "Java"
 
     ```Java
-    {!> code-samples/messaging/code-snippets/send-mms.java !}
+    --8<-- "code-samples/messaging/code-snippets/send-mms.java"
     ```

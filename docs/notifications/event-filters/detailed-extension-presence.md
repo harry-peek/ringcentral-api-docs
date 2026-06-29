@@ -56,5 +56,5 @@ Please note: If both simple presence and detailed presence event types are speci
 ## Example
 
 ```json
-{!> code-samples/events/detailed-extension-presence.json !}
+--8<-- "code-samples/events/detailed-extension-presence.json"
 ```

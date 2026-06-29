@@ -24,6 +24,6 @@ This event is triggered whenever there is a change in the presence state for any
 ## Examples
 
 ```json
-{!> code-samples/events/account-presence.json !}
+--8<-- "code-samples/events/account-presence.json"
 ```
 

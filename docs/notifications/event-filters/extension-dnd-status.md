@@ -20,5 +20,5 @@ Event filter `/restapi/v1.0/account/{accountId}/extension/{extensionId}/presence
 ## Example
 
 ```json
-{!> code-samples/events/extension-dnd-status.json !}
+--8<-- "code-samples/events/extension-dnd-status.json"
 ```

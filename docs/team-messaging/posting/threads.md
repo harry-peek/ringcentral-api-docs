@@ -61,5 +61,5 @@ The following example finds the authenticated user's personal chat, creates a pa
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/team-messaging/threaded-posts.js !}
+    --8<-- "code-samples/team-messaging/threaded-posts.js"
     ```

@@ -59,7 +59,7 @@ Select your preferred language below.
     Create a file called `create-team.js` using the contents below.
 
     ```JavaScript
-    {!> code-samples/team-messaging/quick-start.js [ln:1-48] !}
+    --8<-- "code-samples/team-messaging/quick-start.js:1:48"
     ```
 
     ### Run your code
@@ -83,7 +83,7 @@ Select your preferred language below.
     Create a file called `create-team.py` using the contents below.
 
     ```python
-    {!> code-samples/team-messaging/quick-start.py [ln:1-43] !}
+    --8<-- "code-samples/team-messaging/quick-start.py:1:43"
     ```
 
     ### Run your code
@@ -108,7 +108,7 @@ Select your preferred language below.
     Create a file called `create-team.php` using the contents below.
 
     ```PHP
-    {!> code-samples/team-messaging/quick-start.php [ln:1-48] !}
+    --8<-- "code-samples/team-messaging/quick-start.php:1:48"
     ```
 
     ### Run your code
@@ -132,7 +132,7 @@ Select your preferred language below.
     Create a file called `create-team.rb` using the contents below.
 
     ```ruby
-    {!> code-samples/team-messaging/quick-start.rb [ln:1-42] !}
+    --8<-- "code-samples/team-messaging/quick-start.rb:1:42"
     ```
 
     ### Run your code
@@ -156,7 +156,7 @@ Select your preferred language below.
     ### Edit the file Program.cs
 
     ```c#
-    {!> code-samples/team-messaging/quick-start.cs !}
+    --8<-- "code-samples/team-messaging/quick-start.cs"
     ```
 
     ### Run your code
@@ -190,7 +190,7 @@ Select your preferred language below.
     ### Edit the file 'CreateTeam.java'
 
     ```java
-    {!> code-samples/team-messaging/quick-start.java !}
+    --8<-- "code-samples/team-messaging/quick-start.java"
     ```
 
     ### Build & Run Your Code

@@ -2,7 +2,7 @@
 
 Any SMS handler of a common resource can initiate a new message to a customer using a shared phone number associated with the resource. However, if an open thread already exists for that pair of phone numbers, only the thread’s current assignee can send reply messages. This ensures consistent ownership and prevents conflicting responses within an active conversation.
 
-Before learning how to send thread messages using the [`/restapi/v1.0/account/~/message-threads/messages`](https://developers.ringcentral.com/api-reference/Message-Threads/mthSendMessage) endpoint, developers should first understand how to identify [shared phone numbers](../configurations/#detect-shared-phone-numbers-from-common-resources) and the [SMS handlers](../configurations/#multiple-sms-recipients-configuration) assigned to common resources.
+Before learning how to send thread messages using the [`/restapi/v1.0/account/~/message-threads/messages`](https://developers.ringcentral.com/api-reference/Message-Threads/mthSendMessage) endpoint, developers should first understand how to identify [shared phone numbers](configurations.md#detect-shared-phone-numbers-from-common-resources) and the [SMS handlers](configurations.md#multiple-sms-recipients-configuration) assigned to common resources.
 
 To send thread messages, your application must:
 
@@ -154,26 +154,26 @@ The sample code below detects the call queue’s direct phone number, checks whe
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js [ln:1-13] !}
-    {!> code-samples/messaging/code-snippets/send-thread-sms.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js:1:13"
+    --8<-- "code-samples/messaging/code-snippets/send-thread-sms.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/messaging/code-snippets/send-thread-sms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-6]!}
+    --8<-- "code-samples/messaging/code-snippets/send-thread-sms.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:6"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-13] !}
-    {!> code-samples/messaging/code-snippets/send-thread-sms.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php:1:13"
+    --8<-- "code-samples/messaging/code-snippets/send-thread-sms.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/messaging/code-snippets/send-thread-sms.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/messaging/code-snippets/send-thread-sms.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```
 
 ### Sample response

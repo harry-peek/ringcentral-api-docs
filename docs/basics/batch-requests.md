@@ -22,7 +22,7 @@ Accept: application/json
 **Reponse**
 
 ```json
-{!> code-samples/basics/batch-request-get-1.txt !}
+--8<-- "code-samples/basics/batch-request-get-1.txt"
 ```
 
 ### Multipart+Json
@@ -37,7 +37,7 @@ Accept: application/vnd.ringcentral.multipart+json
 **Response**
 
 ```json
-{!> code-samples/basics/batch-request-get-2.txt !}
+--8<-- "code-samples/basics/batch-request-get-2.txt"
 ```
 
 ## Bulk request for `PUT` method
@@ -68,7 +68,7 @@ Content-Type: application/json
 **Response**
 
 ```json
-{!> code-samples/basics/batch-request-put-1.txt !}
+--8<-- "code-samples/basics/batch-request-put-1.txt"
 ```
 
 ### Multipart+Json
@@ -118,5 +118,5 @@ Content-Type: application/vnd.ringcentral.multipart+json
 **Response**
 
 ```json
-{!> code-samples/basics/batch-request-put-2.txt !}
+--8<-- "code-samples/basics/batch-request-put-2.txt"
 ```

@@ -24,7 +24,7 @@ Prior to [adaptive cards](../adaptive-cards/index.md) RingCentral supported its 
     Host: hooks.ringcentral.com
     Content-Type: application/json
 	
-    {!> code-samples/team-messaging/adaptive-cards/legacy-v2.json !}
+    --8<-- "code-samples/team-messaging/adaptive-cards/legacy-v2.json"
 	```
 	
     ### Schema
@@ -82,7 +82,7 @@ Prior to [adaptive cards](../adaptive-cards/index.md) RingCentral supported its 
     Host: hooks.ringcentral.com
     Content-Type: application/json
 
-    {!> code-samples/team-messaging/adaptive-cards/legacy-v1.json !}
+    --8<-- "code-samples/team-messaging/adaptive-cards/legacy-v1.json"
 	```
 
     ### Schema

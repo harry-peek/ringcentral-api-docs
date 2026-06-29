@@ -21,5 +21,5 @@ This event is triggered when a specific message batch changes in a material way.
 ## Example
 
 ```json
-{!> code-samples/events/specific-message-batch.json !}
+--8<-- "code-samples/events/specific-message-batch.json"
 ```

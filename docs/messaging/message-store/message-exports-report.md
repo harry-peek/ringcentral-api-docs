@@ -143,41 +143,41 @@ The following code sample shows how to call the Message Store Export APIs to exp
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js [ln:1-12] !}
-    {!> code-samples/messaging/code-snippets/message-store-export.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js:1:12"
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/messaging/code-snippets/message-store-export.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-15] !}
-    {!> code-samples/messaging/code-snippets/message-store-export.php [ln:2-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php:1:15"
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/message-store-export.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/messaging/code-snippets/message-store-export.cs !}
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/messaging/code-snippets/message-store-export.java !}
+    --8<-- "code-samples/messaging/code-snippets/message-store-export.java"
     ```
 
 ## Relevant APIs for Further Reading

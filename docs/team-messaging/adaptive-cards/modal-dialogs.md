@@ -12,7 +12,7 @@ To spawn a dialog, have your application respond to a RingCentral outbound webho
     The example Javascript below is an expansion to the [Walkthrough example ](../bots/posting-cards.md) to demonstrate a simple Add-in app which opens a dialog in response to a user's submit event.
 
     ```js
-    {!> code-samples/team-messaging/open-dialog.js !}
+    --8<-- "code-samples/team-messaging/open-dialog.js"
     ```
 
 ## Dialog payloads
@@ -29,7 +29,7 @@ The response to an interactive messaging event contains the following elements:
 ### Adaptive card dialogs
 
 ```js
-{!> code-samples/team-messaging/simple-adaptive-card-dialog.json !}
+--8<-- "code-samples/team-messaging/simple-adaptive-card-dialog.json"
 ```
 
 The above payload will produce a dialog that appears as follows:
@@ -39,7 +39,7 @@ The above payload will produce a dialog that appears as follows:
 ### iFrame dialogs
 
 ```js
-{!> code-samples/team-messaging/simple-iframe-dialog.json !}
+--8<-- "code-samples/team-messaging/simple-iframe-dialog.json"
 ```
 
 The above payload will produce a dialog that appears as follows:
@@ -72,7 +72,7 @@ Data is transmitted to an add-in via an incoming message event. The data that is
 For example, the following card will transmit two key/value pairs in the payload of the incoming interactive messaging event:
 
 ```js
-{!> code-samples/team-messaging/adaptive-cards/transmit-data.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/transmit-data.json"
 ```
 
 The two key/value pairs will be:

@@ -30,7 +30,7 @@ Follow the instructions for [setting up WebSockets](../notifications/websockets/
 You'll start to receive event messages for connected calls. The following is an example of an event showing the customer call being `answered` by the operator.
 
 ```json hl_lines="11 18 46"
-{!> code-samples/voice/cust-to-oper-event.json !}
+--8<-- "code-samples/voice/cust-to-oper-event.json"
 ```
 
 The highlighted lines show you the important fields you will need.
@@ -46,7 +46,7 @@ The highlighted lines show you the important fields you will need.
 Next, you'll want to find the event for the operator calling and connecting to the consult. The following is an example of an event showing the operator call being `answered` by the consult.
 
 ```json hl_lines="11 18 37"
-{!> code-samples/voice/oper-to-cust-event.json !}
+--8<-- "code-samples/voice/oper-to-cust-event.json"
 ```
 
 The highlighted lines show you the important fields you will need.

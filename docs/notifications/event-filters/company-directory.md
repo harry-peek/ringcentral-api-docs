@@ -74,5 +74,5 @@ Event filter `/restapi/v1.0/account/{accountId}/directory/entries` enables notif
 ## Example
 
 ```json
-{!> code-samples/events/company-directory.json !}
+--8<-- "code-samples/events/company-directory.json"
 ```

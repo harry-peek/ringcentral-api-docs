@@ -25,7 +25,7 @@ Only an Admin User can change and view the custom field values for other extensi
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-update-value.py !}
+    --8<-- "code-samples/account/custom-fields-update-value.py"
     ```
 
 ## How to find and display a user's custom field values?
@@ -35,13 +35,13 @@ Once the custom field is created on a user extension, developers can use the Get
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-read.py !}
+    --8<-- "code-samples/account/custom-fields-read.py"
     ```
 
 **Sample response**
 
 ```json
-{!> code-samples/account/custom-fields-response.json !}
+--8<-- "code-samples/account/custom-fields-response.json"
 ```
 
 ## How to manage custom field definitions using the Custom Fields API
@@ -53,7 +53,7 @@ Developers can use this API to create a custom field on a user extension object.
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-create.py !}
+    --8<-- "code-samples/account/custom-fields-create.py"
     ```
 
 === "Raw"
@@ -77,7 +77,7 @@ Developers can use this API to rename an existing custom field by specifying the
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-update.py !}
+    --8<-- "code-samples/account/custom-fields-update.py"
     ```
 
 === "Raw"
@@ -95,7 +95,7 @@ Developers can use this API to fetch all the custom fields created on a RingCent
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-list.py !}
+    --8<-- "code-samples/account/custom-fields-list.py"
     ```
 
 === "Raw"
@@ -112,7 +112,7 @@ Developers can delete one or more existing custom field by passing the custom fi
 === "Python"
 
     ```python
-    {!> code-samples/account/custom-fields-delete.py !}
+    --8<-- "code-samples/account/custom-fields-delete.py"
     ```
 
 === "Raw"

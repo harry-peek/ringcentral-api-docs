@@ -7,7 +7,7 @@ Developers can easily determine the permissions available for an access token by
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-log-access.js !}
+    --8<-- "code-samples/voice/call-log-access.js"
     ```
 
 ## API Permissions

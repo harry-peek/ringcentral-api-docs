@@ -3,7 +3,7 @@ no_breadcrumb:true
 
 # RingCentral RingEX™ Developer Guide
 
-{! mdx_includes/carousel.md !}
+--8<-- "mdx_includes/carousel.md"
 
 ## Popular use cases
 

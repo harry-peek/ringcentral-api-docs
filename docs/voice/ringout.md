@@ -27,37 +27,37 @@ The two-legged RingOut call can be created via the following request:
 === "Javascript"
 
 	```javascript
-    {!> code-samples/voice/quick-start.js [ln:1-38]!}
+    --8<-- "code-samples/voice/quick-start.js:1:38"
 	```
 
 === "Python"
 
 	```python
-    {!> code-samples/voice/quick-start.py [ln:1-41]!}
+    --8<-- "code-samples/voice/quick-start.py:1:41"
 	```
 
 === "PHP"
 
 	```php
-    {!> code-samples/voice/quick-start.php [ln:1-45]!}
+    --8<-- "code-samples/voice/quick-start.php:1:45"
 	```
 
 === "C#"
 
 	```c#
-    {!> code-samples/voice/Call_RingOut/Program.cs !}
+    --8<-- "code-samples/voice/Call_RingOut/Program.cs"
 	```
 
 === "Java"
 
 	```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/RingoutQuickStart.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/RingoutQuickStart.java"
 	```
 
 === "Ruby"
 
 	```ruby
-    {!> code-samples/voice/quick-start.rb [ln:1-43]!}
+    --8<-- "code-samples/voice/quick-start.rb:1:43"
 	```
 
 ## Request parameters
@@ -73,7 +73,7 @@ The two-legged RingOut call can be created via the following request:
 The response can be as follows:
 
 ```json
-{!> code-samples/voice/ringout-response.json !}
+--8<-- "code-samples/voice/ringout-response.json"
 ```
 
 ### Response parameters
@@ -129,7 +129,7 @@ You can poll the RingOut endpoint to get the status of an ongoing outbound RingO
 The response will be similar to the following:
 
 ```json
-{!> code-samples/voice/ringout-poll-response.json !}
+--8<-- "code-samples/voice/ringout-poll-response.json"
 ```
 
 ## How to cancel a RingOut in progress

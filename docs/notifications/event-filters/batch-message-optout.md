@@ -32,5 +32,5 @@ Opt-out events are sent when a user connects to the RingCentral opt-out service 
 ## Example
 
 ```json
-{!> code-samples/events/batch-message-optout.json !}
+--8<-- "code-samples/events/batch-message-optout.json"
 ```

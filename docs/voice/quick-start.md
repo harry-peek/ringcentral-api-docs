@@ -59,7 +59,7 @@ Select your preferred language below.
     Create a file called `ringout.js`. Be sure the values in your `.env` file have been set properly.
 
     ```javascript
-    {!> code-samples/voice/quick-start.js [ln:1-36]!}
+    --8<-- "code-samples/voice/quick-start.js:1:36"
     ```
 
     ### Run your code
@@ -84,7 +84,7 @@ Select your preferred language below.
     Create a file called `ringout.py`. Be sure the values in your `.env` file have been set properly, including the `RINGOUT_RECIPIENT` variable.
 
     ```python
-    {!> code-samples/voice/quick-start.py [ln:1-41]!}
+    --8<-- "code-samples/voice/quick-start.py:1:41"
     ```
 
     ### Run your code
@@ -109,7 +109,7 @@ Select your preferred language below.
     Create a file called `ringout.php`. Be sure the values in your `.env` file have been set properly, including the `RINGOUT_RECIPIENT` variable.
 
     ```php
-    {!> code-samples/voice/quick-start.php [ln:1-45]!}
+    --8<-- "code-samples/voice/quick-start.php:1:45"
     ```
 
     ### Run your code
@@ -133,7 +133,7 @@ Select your preferred language below.
     Create a file called `ringout.rb`. Be sure the values in your `.env` file have been set properly, including the `RINGOUT_RECIPIENT` variable.
 
     ```ruby
-    {!> code-samples/voice/quick-start.rb [ln:1-43]!}
+    --8<-- "code-samples/voice/quick-start.rb:1:43"
     ```
 
     ### Run your code
@@ -158,7 +158,7 @@ Select your preferred language below.
     Be sure to edit the variables in ALL CAPS with your app and user credentials. Be sure to also set the recipient's phone number.
 
     ``` c#
-    {!> code-samples/voice/Call_RingOut/Program.cs !}
+    --8<-- "code-samples/voice/Call_RingOut/Program.cs"
     ```
 
     ### Run Your App
@@ -204,7 +204,7 @@ Select your preferred language below.
     Be sure to edit the variables in ALL CAPS with your app and user credentials. Be sure to also set the recipient's phone number.
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/RingoutQuickStart.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/RingoutQuickStart.java"
     ```
 
     ### Run Your App

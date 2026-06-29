@@ -57,5 +57,5 @@ The updated message info is accessible by calling the Get Message List method.
 ## Example
 
 ```json
-{!> code-samples/events/voicemail-message.json !}
+--8<-- "code-samples/events/voicemail-message.json"
 ```

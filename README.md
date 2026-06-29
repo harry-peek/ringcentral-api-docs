@@ -170,12 +170,34 @@ There are a number of [other Markdown extensions](https://squidfunk.github.io/mk
 
 Inside of this repository is a `code-samples` directory, into which is placed all the code samples that can be found in our documentation. Each code sample stored here is a fully functional, stand-alone script that can be run directly by a developer.
 
-Writers can then include content from a code sample using the following syntax:
+Writers can include an entire file using the following syntax (paths are relative to the repository root):
 
-```javascript
-{! code-samples/path/to/code-sample.js [ln:35-48] !}
+```
+--8<-- "code-samples/path/to/code-sample.js"
 ```
 
-The above example includes the file referenced, but only lines 35 through 48. This makes it possible to only include fragments of a code sample, while maintaining the integrity of the code sample's ability to be run as a stand-alone script.
+To include only a range of lines, append a start and end line number separated by colons:
 
-This include functionality is provided by the [mdx_include extension](https://github.com/neurobin/mdx_include). Consult its documentation to learn how to use it more effectively.
+```
+--8<-- "code-samples/path/to/code-sample.js:35:48"
+```
+
+To include from a specific line to the end of the file, omit the end line number:
+
+```
+--8<-- "code-samples/path/to/code-sample.js:10:"
+```
+
+This makes it possible to include only the relevant fragment of a code sample in the docs, while the file itself remains a complete, runnable script.
+
+The `--8<-- ""` directives must appear inside a fenced code block within the documentation page:
+
+````markdown
+=== "JavaScript"
+
+    ```javascript
+    --8<-- "code-samples/path/to/code-sample.js:10:"
+    ```
+````
+
+This include functionality is provided by the [pymdownx.snippets extension](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/). Consult its documentation to learn more.

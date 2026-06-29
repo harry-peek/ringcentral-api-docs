@@ -1,6 +1,6 @@
 # Meeting delegates and scheduling on behalf of another
 
-{! mdx_includes/video-beta-notice.md !}
+--8<-- "mdx_includes/video-beta-notice.md"
 
 By default, the host of the meeting is set to the person scheduling the meeting (or calling the API). However, sometimes you need to schedule a meeting on behalf of another. This is a common need for services that operate a centralized booking agent, whereby a single user is acting on behalf of everyone else in the organization to help schedule meetings with customers, clients, patients, etc. 
 
@@ -74,5 +74,5 @@ A successful call will have a response similar to the following (an array of use
 When run, the sample code above should return something that looks like this:
 
 ```json
-{!> code-samples/video/meeting-delegate-response.json !}
+--8<-- "code-samples/video/meeting-delegate-response.json"
 ```

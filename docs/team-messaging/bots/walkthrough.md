@@ -86,7 +86,7 @@ $ cp env-template .env
 Edit the `.env` you just created and enter in the values for `RINGCENTRAL_CLIENT_ID` and `RINGCENTRAL_CLIENT_SECRET` that you received when you created the bot in the RingCentral Developer Console above. Then, set `RINGCENTRAL_OAUTH_REDIRECT_URI` to your ngrok server URL. It would look something like this:
 
 ```json
-{!> code-samples/team-messaging/env-template.json !}
+--8<-- "code-samples/team-messaging/env-template.json"
 ```
 
 Finally, launch your server.
@@ -124,11 +124,11 @@ A public bot access token is per user (customer) account, this means that every 
 ??? info "Code walkthrough: bot authorization"
     Sample code of a private bot auth handler:
     ```js
-    {!> code-samples/team-messaging/private-bot.js [ln:72-116] !}
+    --8<-- "code-samples/team-messaging/private-bot.js:72:116"
     ```
   	Sample code of a public bot auth handler:
     ```js
-    {!> code-samples/team-messaging/public-bot.js [ln:80-141] !}
+    --8<-- "code-samples/team-messaging/public-bot.js:80:141"
     ```
 
 After getting an access token, the bot must subscribe to Team Messaging event notifications in order to receive messages and important events from users and from RingCentral servers.
@@ -137,23 +137,23 @@ After getting an access token, the bot must subscribe to Team Messaging event no
     #### Private bots
 	Calling the function to subscribe to events
     ```js
-    {!> code-samples/team-messaging/private-bot.js [ln:110-112] !}
+    --8<-- "code-samples/team-messaging/private-bot.js:110:112"
     ```
 
 	The function to subscribe to events
     ```js
-    {!> code-samples/team-messaging/private-bot.js [ln:162-190] !}
+    --8<-- "code-samples/team-messaging/private-bot.js:162:190"
     ```
 
     #### Public bots
 	Calling the function to subscribe to events
     ```js
-    {!> code-samples/team-messaging/public-bot.js [ln:133-135] !}
+    --8<-- "code-samples/team-messaging/public-bot.js:133:135"
     ```
 
 	The function to subscribe to events
     ```js
-    {!> code-samples/team-messaging/public-bot.js [ln:203-233] !}
+    --8<-- "code-samples/team-messaging/public-bot.js:203:233"
     ```
 
 ??? tldr "Discussion: observe the console of your local bot server"
@@ -238,13 +238,19 @@ You will notice that the bot responds 'pong' to your message.
     The sample code below shows a private bot receiving a user's message and responding to the user with a message.
 
     ```js
-    {!> code-samples/team-messaging/private-bot.js [ln:118-121,129-140,160,238-248] !}
+    --8<-- "code-samples/team-messaging/private-bot.js:118:121"
+--8<-- "code-samples/team-messaging/private-bot.js:129:140"
+--8<-- "code-samples/team-messaging/private-bot.js:160:160"
+--8<-- "code-samples/team-messaging/private-bot.js:238:248"
     ```
 
     The sample code below shows a public bot receiving a user's message and responding to the user with a message. A key difference between a public and private bot is that a public bot needs to load the correct access token corresponding to the account they will need to post a message back to. If the wrong access token is used, then you will receive an error.
 
     ```js
-    {!> code-samples/team-messaging/public-bot.js [ln:143-146,160-176,201,286-296] !}
+    --8<-- "code-samples/team-messaging/public-bot.js:143:146"
+--8<-- "code-samples/team-messaging/public-bot.js:160:176"
+--8<-- "code-samples/team-messaging/public-bot.js:201:201"
+--8<-- "code-samples/team-messaging/public-bot.js:286:296"
     ```
 
 ??? tldr "Discussion: observe your bot sending and receiving messages"
@@ -311,7 +317,7 @@ You will notice that the bot responds 'pong' to your message.
 In the final step, we will modify the sample application to respond to your sending of custom messages to the bot. Begin by editing either the `private-bot.js` or the `public-bot.js` file in your favorite editor. Uncomment the *else if* and *send_message* lines below. Then select your own custom command or "keyword" your bot will respond to, and then post a reply when that keyword is received.
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:137-139] !}
+--8<-- "code-samples/team-messaging/private-bot.js:137:139"
 ```
 
 ## Summary

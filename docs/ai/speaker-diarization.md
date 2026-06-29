@@ -41,41 +41,41 @@ Follow the instructions on the [quick start](quick-start.md) section to setup an
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/ai/code-snippets-headers/header.js [ln:1-12] !}
-    {!> code-samples/ai/code-snippets/speaker-diarization.js [ln:10-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.js:1:12"
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/ai/code-snippets/speaker-diarization.py !}
-    {!> code-samples/ai/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.py"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/ai/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/ai/code-snippets/speaker-diarization.php [ln:2-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/ai/code-snippets/speaker-diarization.rb !}
-    {!> code-samples/ai/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.rb"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/ai/code-snippets/speaker-diarization.cs !}
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/ai/code-snippets/speaker-diarization.java !}
+    --8<-- "code-samples/ai/code-snippets/speaker-diarization.java"
     ```
 
 

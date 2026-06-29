@@ -81,29 +81,29 @@ You can retrieve an announcement-only extension Id by calling [this API](https:/
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/create-company-answering-rule.js [ln:10-]!}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/create-company-answering-rule.js:10:"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/create-company-answering-rule.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/voice/code-snippets/create-company-answering-rule.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/create-company-answering-rule.php [ln:2-]!}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/create-company-answering-rule.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/create-company-answering-rule.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/voice/code-snippets/create-company-answering-rule.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb"
     ```
 
 Upon successful API call completion, the response contains the id (`ruleId`) and other information of the newly created rule.

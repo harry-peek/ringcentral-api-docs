@@ -32,5 +32,5 @@ Event filter `/restapi/v1.0/account/{accountId}/a2p-sms/batches` enables notific
 ## Example
 
 ```json
-{!> code-samples/events/message-batch.json !}
+--8<-- "code-samples/events/message-batch.json"
 ```

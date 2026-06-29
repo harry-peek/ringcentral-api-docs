@@ -31,13 +31,13 @@ A client should periodically poll the WebSocket server to ensure it is still res
 A heart beat request should look like this:
 
 ```json
-{! code-samples/websockets/heart-beat-request.json !}
+--8<-- "code-samples/websockets/heart-beat-request.json"
 ```
 
 And the response will look something like:
 
 ```json
-{! code-samples/websockets/heart-beat-response.json !}
+--8<-- "code-samples/websockets/heart-beat-response.json"
 ```
 
 ## How to properly respond to checks from the server to see if the client is still active

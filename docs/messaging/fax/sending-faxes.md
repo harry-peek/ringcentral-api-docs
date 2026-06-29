@@ -72,39 +72,39 @@ The following code samples show how to send a simple single document fax.
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js !}
-    {!> code-samples/messaging/code-snippets/send-fax.js [ln:10-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/messaging/code-snippets/send-fax.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/messaging/code-snippets/send-fax.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/messaging/code-snippets/send-fax.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php !}
-    {!> code-samples/messaging/code-snippets/send-fax.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/messaging/code-snippets/send-fax.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/send-fax.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/messaging/code-snippets/send-fax.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/messaging/code-snippets/send-fax.cs !}
+    --8<-- "code-samples/messaging/code-snippets/send-fax.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/messaging/code-snippets/send-fax.java !}
+    --8<-- "code-samples/messaging/code-snippets/send-fax.java"
     ```

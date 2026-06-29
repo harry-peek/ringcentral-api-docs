@@ -64,7 +64,7 @@ Select your preferred language below.
     Create a file called `sms.js`.
 
     ```javascript
-    {!> code-samples/messaging/quick-start.js [ln:1-109] !}
+    --8<-- "code-samples/messaging/quick-start.js:1:109"
     ```
 
     ### Run your code
@@ -88,7 +88,7 @@ Select your preferred language below.
     Create a file called `sms.py`.
 
     ```python
-    {!> code-samples/messaging/quick-start.py [ln:1-80]!}
+    --8<-- "code-samples/messaging/quick-start.py:1:80"
     ```
 
     ### Run your code
@@ -113,7 +113,7 @@ Select your preferred language below.
     Create a file called `sms.php`.
 
     ```php
-    {!> code-samples/messaging/quick-start.php [ln:1-96] !}
+    --8<-- "code-samples/messaging/quick-start.php:1:96"
     ```
 
     ### Run your code
@@ -137,7 +137,7 @@ Select your preferred language below.
     Create a file called `sms.rb`.
 
     ```ruby
-    {!> code-samples/messaging/quick-start.rb [ln:1-86]!}
+    --8<-- "code-samples/messaging/quick-start.rb:1:86"
     ```
 
     ### Run your code
@@ -161,7 +161,7 @@ Select your preferred language below.
     ### Edit the file Program.cs
 
     ```c#
-    {!> code-samples/messaging/quick-start.cs !}
+    --8<-- "code-samples/messaging/quick-start.cs"
     ```
 
     ### Run Your App
@@ -213,7 +213,7 @@ Select your preferred language below.
     ### Edit the file "SendSMS.java".
 
     ```java
-    {!> code-samples/messaging/quick-start.java !}
+    --8<-- "code-samples/messaging/quick-start.java"
     ```
 
     ### Run Your App

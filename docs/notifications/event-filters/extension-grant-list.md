@@ -22,6 +22,6 @@ The updated extension data is accessible by calling the [Get Extension Grant Lis
 ## Example
 
 ```json
-{!> code-samples/events/extension-grant-list.json !}
+--8<-- "code-samples/events/extension-grant-list.json"
 ```
 

@@ -59,5 +59,5 @@ The voicemail message event is triggered when an extension receives a new voicem
 ## Example
 
 ```json
-{!> code-samples/events/voicemail-message.json !}
+--8<-- "code-samples/events/voicemail-message.json"
 ```

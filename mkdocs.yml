@@ -36,7 +36,9 @@ markdown_extensions:
       linenums_style: pymdownx-inline
 #      linenums: true
   - pymdownx.superfences
-  - mdx_include
+  - pymdownx.snippets:
+      base_path: '.'
+      check_paths: true
 
 extra_css:
 - extra.css
@@ -148,8 +150,8 @@ nav:
       - 'Messages Handling': 'messaging/sms/threads/messages-handling.md'
       - 'Notes Handling': 'messaging/sms/threads/notes-handling.md'
       - 'Event Notifications': 'messaging/sms/threads/events.md'
+      - 'Error Codes': 'messaging/sms/threads/handling-errors.md'
       # - 'Migration instruction': 'messaging/sms/threads/migration.md'
-      # - 'Errors Handling': 'messaging/sms/v2/handling-errors.md'
     - 'SMS Consent':
       - 'Consent management': 'messaging/sms/messaging-consent-management.md'
     - 'Fax':
@@ -267,6 +269,7 @@ nav:
     - 'Getting Started': 'analytics/quick-start.md'
     - 'Aggregate Data': 'analytics/aggregate.md'
     - 'Timeline Data': 'analytics/timeline.md'
+    - 'Call Records': 'analytics/call-records.md'
 
   - 'Artificial Intelligence':
     - 'Overview': 'ai/index.md'

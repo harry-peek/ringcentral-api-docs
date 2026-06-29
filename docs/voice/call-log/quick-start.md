@@ -45,35 +45,35 @@ Follow the instructions found in our guide to [running Developer Guide code samp
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-log.js !}
+    --8<-- "code-samples/voice/call-log.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-log.py [ln:1-38] !}
+    --8<-- "code-samples/voice/call-log.py:1:38"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/call-log.php [ln:1-42] !}
+    --8<-- "code-samples/voice/call-log.php:1:42"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/call-log.rb [ln:1-40] !}
+    --8<-- "code-samples/voice/call-log.rb:1:40"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/call-log.cs !}
+    --8<-- "code-samples/voice/call-log.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/voice/ReadUserCallLog.java !}
+    --8<-- "code-samples/voice/ReadUserCallLog.java"
     ```

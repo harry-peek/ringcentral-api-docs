@@ -9,7 +9,7 @@ If applications do not respond properly to webhooks being transmitted to them, e
 One can retrieve a list of subscriptions, or fetch a single subscription, to determine the current status of that subscription. Below is a sample response showing a subscription that has been "blacklisted."
 
 ```javascript hl_lines="8"
-{!> code-samples/webhooks/blacklist.json !}
+--8<-- "code-samples/webhooks/blacklist.json"
 ```
 
 To fix the problem, a developer can delete the subscription and register a new one. The developer is free to use the same URL as before. 

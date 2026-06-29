@@ -53,7 +53,7 @@ wss://servername.ringcentral.com/ws?access_token=U0pDMDFQMDdQQxxxxxxxxx9pSU9OemV
 When a connection is successfully made, the WebSockets server will transmit a `ConnectionDetails` message similar to the following:
 
 ```js
-{! code-samples/websockets/connection-details.json !}
+--8<-- "code-samples/websockets/connection-details.json"
 ```
 
 ??? hint "Make note of the wsc token to aid in session recovery"
@@ -66,7 +66,7 @@ With a connection to the WebSockets server now established, you can transmit you
 To subscribe to events, you will need to transmit a `ClientRequest` specifying the [event filters](../event-filters/index.md) you wish to subscribe to. For example, the following will subscribe to incoming SMS and incoming voicemail events. 
 
 ```js
-{! code-samples/websockets/subscription-request.json !}
+--8<-- "code-samples/websockets/subscription-request.json"
 ```
 
 !!! warning "Only one subscription per server"

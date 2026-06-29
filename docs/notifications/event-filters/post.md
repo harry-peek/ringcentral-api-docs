@@ -43,17 +43,17 @@ Event filter `/team-messaging/v1/posts` enables notifications in case of a team 
 ## Example #1: message posted
 
 ```json
-{!> code-samples/events/post-1.json !}
+--8<-- "code-samples/events/post-1.json"
 ```
 
 ## Example #2: message updated
 
 ```json
-{!> code-samples/events/post-2.json !}
+--8<-- "code-samples/events/post-2.json"
 ```
 
 ## Example #3: message deleted
 
 ```json
-{!> code-samples/events/post-3.json !}
+--8<-- "code-samples/events/post-3.json"
 ```

@@ -58,7 +58,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called <tt>websockets.js</tt>. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```javascript
-    {!> code-samples/websockets/quick-start.js !}
+    --8<-- "code-samples/websockets/quick-start.js"
     ```
 
     ### Run your code
@@ -84,7 +84,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```c#
-    {!> code-samples/websockets/quick-start.cs !}
+    --8<-- "code-samples/websockets/quick-start.cs"
     ```
 
     ### Run your app
@@ -129,7 +129,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/WebSocketQuickStart.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/WebSocketQuickStart.java"
     ```
 
     ### Run your app
@@ -149,7 +149,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called <tt>websockets.rb</tt> using the contents below.
 
     ```ruby
-    {!> code-samples/websockets/quick-start.rb !}
+    --8<-- "code-samples/websockets/quick-start.rb"
     ```
 
     ### Run your code
@@ -173,7 +173,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called <tt>websocket_quick_start.py</tt> using the contents below.
 
     ```python
-    {!> code-samples/websockets/quick-start.py !}
+    --8<-- "code-samples/websockets/quick-start.py"
     ```
 
     ### fill in .env file
@@ -202,7 +202,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called <tt>websockets.php</tt> using the contents below.
 
     ```php
-    {!> code-samples/websockets/quick-start.php !}
+    --8<-- "code-samples/websockets/quick-start.php"
     ```
 
     ### Run your code

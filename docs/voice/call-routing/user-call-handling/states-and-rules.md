@@ -453,29 +453,29 @@ The following example code demonstrates how to change the call termination metho
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.js:10:"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.php:2:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/voice/code-snippets/change-fac-state-call-terminating-rules.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb"
     ```
 
 ### Sample response

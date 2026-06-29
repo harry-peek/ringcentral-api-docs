@@ -1,6 +1,6 @@
 # RingCentral Video REST API Quick Start
 
-{! mdx_includes/video-beta-notice.md !}
+--8<-- "mdx_includes/video-beta-notice.md"
 
 !!! hint "**Calling the RingCentral API for the first time?** We recommend you try out [getting started experience](../../getting-started/index.md)."
 
@@ -50,7 +50,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `meetings.js`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```js
-	{!> code-samples/video/meetings.js !}
+	--8<-- "code-samples/video/meetings.js"
 	```
 
     ### Run Your Code
@@ -74,7 +74,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `meetings.py`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```python
-    {!> code-samples/video/meetings.py !}
+    --8<-- "code-samples/video/meetings.py"
     ```
 
     ### Run Your Code
@@ -99,7 +99,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `meetings.php`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```php
-    {!> code-samples/video/meetings.php !}
+    --8<-- "code-samples/video/meetings.php"
     ```
 
     ### Run Your Code
@@ -122,7 +122,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `meetings.rb`. Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```ruby
-	{!> code-samples/video/meetings.rb !}
+	--8<-- "code-samples/video/meetings.rb"
     ```
 
     ### Run Your Code
@@ -146,7 +146,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     ### Edit the file Program.cs
 
     ```c#
-    {!> code-samples/video/meetings.cs !}
+    --8<-- "code-samples/video/meetings.cs"
     ```
 
 	### Run Your App
@@ -196,7 +196,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     ### Edit the file "CreateMeeting.java".
 
     ```java
-    {!> code-samples/video/meetings.java !}
+    --8<-- "code-samples/video/meetings.java"
     ```
 
     ### Run Your App

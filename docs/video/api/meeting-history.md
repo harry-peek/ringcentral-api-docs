@@ -1,6 +1,6 @@
 # Generate a list of past meetings
 
-{! mdx_includes/video-beta-notice.md !}
+--8<-- "mdx_includes/video-beta-notice.md"
 
 The RingCentral Video API makes it possible to fetch the meeting history across the entire account, or the history associated with the user in the current authentication context. In the list of meetings that are returned, you can gain access to:
 
@@ -14,7 +14,7 @@ The sample code below will help you construct a call to access this meeting hist
 === "Javascript"
 
     ```js
-    {!> code-samples/video/history.js !}
+    --8<-- "code-samples/video/history.js"
     ```
 
 ### Example meeting history response
@@ -22,7 +22,7 @@ The sample code below will help you construct a call to access this meeting hist
 The typical response to retrieve meeting histories will look something like the following:
 
 ```json
-{!> code-samples/video/history.json !}
+--8<-- "code-samples/video/history.json"
 ```
 
 ## Searching meeting history 
@@ -43,7 +43,7 @@ For some use cases it is advantageous to be able to query all the meetings that 
 === "Javascript"
 
     ```js
-    {!> code-samples/video/meetings-account.js !}
+    --8<-- "code-samples/video/meetings-account.js"
     ```
 
 ## Accessing the history of a single meeting
@@ -53,7 +53,7 @@ If you know the meeting ID, a single meeting can be retrieved by passing it into
 === "Javascript"
 
     ```js
-    {!> code-samples/video/meetings-single.js !}
+    --8<-- "code-samples/video/meetings-single.js"
     ```
 
 ## Accessing meeting recordings

@@ -11,7 +11,7 @@ Teams can be either public or private. A public team is discoverable by everyone
 Create a team by posting to the [teams endpoint](https://developers.ringcentral.com/api-reference/Teams/createGlipTeamNew). You can specify the name, description, its membership, and its visibility within the organization.
 
 ```js
-{!> code-samples/team-messaging/create-team.js [ln:1-38]!}
+--8<-- "code-samples/team-messaging/create-team.js:1:38"
 ```
 
 When specifying the members of a team, one can provide a mix of either person IDs and/or email addresses. If the email address refers to someone outside the organization that person will be added to the team as a guest, and invoke an email onboarding flow for that user.
@@ -32,36 +32,36 @@ The following code sample shows how to list all created teams under and account 
 
 === "JavaScript"
     ```javascript
-    {!> code-samples/team-messaging/code-snippets-headers/header.js !}
-    {!> code-samples/team-messaging/code-snippets/list-teams.js [ln:10-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/team-messaging/code-snippets/list-teams.py !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.py"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/team-messaging/code-snippets-headers/header.php !}
-    {!> code-samples/team-messaging/code-snippets/list-teams.php [ln:2-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/team-messaging/code-snippets/list-teams.rb !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.rb"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
     ```c#
-    {!> code-samples/team-messaging/code-snippets/list-teams.cs !}
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.cs"
     ```
 
 === "Java"
     ```java
-    {!> code-samples/team-messaging/code-snippets/list-teams.java !}
+    --8<-- "code-samples/team-messaging/code-snippets/list-teams.java"
     ```
 
 ## Finding the members of a teams
@@ -94,34 +94,34 @@ The following code sample shows how to find a team id using a team name and add 
 
 === "JavaScript"
     ```javascript
-    {!> code-samples/team-messaging/code-snippets-headers/header.js !}
-    {!> code-samples/team-messaging/code-snippets/add-team-members.js [ln:10-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/team-messaging/code-snippets/add-team-members.py !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.py"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/team-messaging/code-snippets-headers/header.php !}
-    {!> code-samples/team-messaging/code-snippets/add-team-members.php [ln:2-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/team-messaging/code-snippets/add-team-members.rb !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.rb"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
     ```c#
-    {!> code-samples/team-messaging/code-snippets/add-team-members.cs !}
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.cs"
     ```
 
 === "Java"
     ```java
-    {!> code-samples/team-messaging/code-snippets/add-team-members.java !}
+    --8<-- "code-samples/team-messaging/code-snippets/add-team-members.java"
     ```

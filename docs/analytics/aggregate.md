@@ -270,5 +270,5 @@ Authorization: Bearer REPLACE_WITH_YOUR_VALID_ACCESS_TOKEN
 ## Full sample request for Analytics Aggregate Report
 
 ```json
-{!> code-samples/analytics/aggregate-request-body.json !}
+--8<-- "code-samples/analytics/aggregate-request-body.json"
 ```

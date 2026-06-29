@@ -23,30 +23,36 @@ Bots post adaptive cards to a chat via the REST API, for which a different set o
 
 Sample code of a private bot:
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:250-258] !}
+--8<-- "code-samples/team-messaging/private-bot.js:250:258"
 ```
 
 Sample code of a public bot:
 ```js
-{!> code-samples/team-messaging/public-bot.js [ln:298-306] !}
+--8<-- "code-samples/team-messaging/public-bot.js:298:306"
 ```
 
 Next, we want to update the bot to respond to a new command. When a user types "hello" to the bot, the bot will respond by posting a card. Let's update our callback handler accordingly:
 
 Sample code of a private bot:
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:118-121,140-143,160,250-258] !}
+--8<-- "code-samples/team-messaging/private-bot.js:118:121"
+--8<-- "code-samples/team-messaging/private-bot.js:140:143"
+--8<-- "code-samples/team-messaging/private-bot.js:160:160"
+--8<-- "code-samples/team-messaging/private-bot.js:250:258"
 ```
 
 Sample code of a public bot:
 ```js
-{!> code-samples/team-messaging/public-bot.js [ln:143-146,176-178,201,298-306] !}
+--8<-- "code-samples/team-messaging/public-bot.js:143:146"
+--8<-- "code-samples/team-messaging/public-bot.js:176:178"
+--8<-- "code-samples/team-messaging/public-bot.js:201:201"
+--8<-- "code-samples/team-messaging/public-bot.js:298:306"
 ```
 
 Finally, create a helper function to return the JSON for an adaptive card:
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:270-327] !}
+--8<-- "code-samples/team-messaging/private-bot.js:270:327"
 ```
 
 With the above changes made to your bot app, you will be able to post an adaptive card instead of just a text message.
@@ -68,13 +74,13 @@ Next, we go back to our code to add an express handler for receiving adaptive ca
 **Sample code of a private bot**
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:224-236] !}
+--8<-- "code-samples/team-messaging/private-bot.js:224:236"
 ```
 
 **Sample code of a public bot**
 
 ```js
-{!> code-samples/team-messaging/public-bot.js [ln:265-284] !}
+--8<-- "code-samples/team-messaging/public-bot.js:265:284"
 ```
 
 The main difference between a public bot and a private bot is that a private bot always posts messages to the same account, while a public bot could be posting messages to any number of different RingCentral accounts. For this reason, a private bot only needs to keep track of one access token (the one corresponding to your account), and a public bot needs to maintain a mapping of accounts and access tokens.
@@ -86,14 +92,15 @@ In this example, we demonstrate both how to send a response by posting a new car
 You will observe that the card we posted contains two buttons, one to instruct the server to post a response as a new card, and one to instruct the server to update the existing card specified in the `data.path` value. When we receive a *user-submit* event, we will detect the `data.path` value and decide to post back accordingly.
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:270-327] !}
+--8<-- "code-samples/team-messaging/private-bot.js:270:327"
 ```
 
 ## Send response in a new card
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:224-231,234-236] !}
-{!> code-samples/team-messaging/private-bot.js [ln:249-258] !}
+--8<-- "code-samples/team-messaging/private-bot.js:224:231"
+--8<-- "code-samples/team-messaging/private-bot.js:234:236"
+--8<-- "code-samples/team-messaging/private-bot.js:249:258"
 ```
 
 <img class="img-fluid" src="../../manual/bot-send-card.png" >
@@ -101,8 +108,9 @@ You will observe that the card we posted contains two buttons, one to instruct t
 ## Update a card with the response
 
 ```js
-{!> code-samples/team-messaging/private-bot.js [ln:224-227,231-236] !}
-{!> code-samples/team-messaging/private-bot.js [ln:259-268] !}
+--8<-- "code-samples/team-messaging/private-bot.js:224:227"
+--8<-- "code-samples/team-messaging/private-bot.js:231:236"
+--8<-- "code-samples/team-messaging/private-bot.js:259:268"
 ```
 
 <img class="img-fluid" src="../../manual/bot-update-card.png" >

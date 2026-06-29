@@ -31,35 +31,35 @@ When you are done, you will be taken to the app's dashboard. Make note of the Cl
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-routing.js !}
+    --8<-- "code-samples/voice/call-routing.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-routing.py !}
+    --8<-- "code-samples/voice/call-routing.py"
     ```
     
 === "PHP"
 
     ```php
-    {!> code-samples/voice/call-routing.php !}
+    --8<-- "code-samples/voice/call-routing.php"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/call-routing.cs !}
+    --8<-- "code-samples/voice/call-routing.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/ReadUserAnsweringRules.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/ReadUserAnsweringRules.java"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/call-routing.rb !}
+    --8<-- "code-samples/voice/call-routing.rb"
     ```

@@ -41,39 +41,39 @@ Imagine if you are a community manager and you need to send an SMS message every
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js [ln:1-13]!}
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js:1:13"
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-15]!}
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php:1:15"
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.cs !}
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/messaging/code-snippets/create-user-sms-template.java !}
+    --8<-- "code-samples/messaging/code-snippets/create-user-sms-template.java"
     ```

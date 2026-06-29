@@ -23,7 +23,7 @@ Using a JSON Web Token for app authentication is ideal in the following circumst
 * You need a way for users to grant access to their account using a credential that doesn't expire.
 * You need a way to access an account that doesn't rely on token refreshing.
 
-{! docs/authentication/jwt-vs-password.inc !}
+--8<-- "docs/authentication/jwt-vs-password.inc"
 
 ### How do I configure an app to use JWT authentication?
 

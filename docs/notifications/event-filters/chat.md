@@ -28,18 +28,18 @@ Event filter `/team-messaging/v1/chats` enables notifications in case of a team 
 ## Example #1: chat joined
 
 ```json
-{!> code-samples/events/chat-1.json !}
+--8<-- "code-samples/events/chat-1.json"
 ```
 
 
 ## Example #2: chat renamed
 
 ```json
-{!> code-samples/events/chat-2.json !}
+--8<-- "code-samples/events/chat-2.json"
 ```
 
 ## Example #3: user left chat
 
 ```json
-{!> code-samples/events/chat-3.json !}
+--8<-- "code-samples/events/chat-3.json"
 ```

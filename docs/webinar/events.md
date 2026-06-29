@@ -9,7 +9,7 @@ To subscribe to a webinar webhook, one will call the [create subscription operat
 === "Javascript"
 
     ```js
-    {!> code-samples/webinar/subscribe.js !}
+    --8<-- "code-samples/webinar/subscribe.js"
     ```
 
 ## Available event filters

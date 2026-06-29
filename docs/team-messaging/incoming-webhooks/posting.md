@@ -40,7 +40,7 @@ POST /webhook/v2/eyJhbGciOiJI.xxxxxx.zI1NiIsInR5cCI6IkpXVCJ9
 Host: hooks.ringcentral.com
 Content-Type: application/json
 
-{!> code-samples/team-messaging/adaptive-cards/simple-card.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/simple-card.json"
 ```
 
 Posting the above JSON to an incoming webhook will result in a message that appears as follows:

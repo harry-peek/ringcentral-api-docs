@@ -38,5 +38,5 @@ To get you started, here is some sample python code to retrieve audit logs from 
 === "Python"
 
 ``` python
-{!> code-samples/account/audit-trail.py !}
+--8<-- "code-samples/account/audit-trail.py"
 ```

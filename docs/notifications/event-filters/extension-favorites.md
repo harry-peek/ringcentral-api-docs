@@ -22,6 +22,6 @@ The updated extension data is accessible by calling the [Get Favorite Contact Li
 ## Example
 
 ```json
-{!> code-samples/events/extension-favorites.json !}
+--8<-- "code-samples/events/extension-favorites.json"
 ```
 

@@ -57,7 +57,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `analytics.js`. Be sure the values in your `.env` file have been set properly.
 
     ```javascript
-    {!> code-samples/analytics/quick-start.js [ln:1-64]!}
+    --8<-- "code-samples/analytics/quick-start.js:1:64"
     ```
 
     ### Run your code
@@ -81,7 +81,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `analytics.py`. Be sure the values in your `.env` file have been set properly.
 
     ```python
-    {!> code-samples/analytics/quick-start.py [ln:1-59]!}
+    --8<-- "code-samples/analytics/quick-start.py:1:59"
     ```
 
     ### Run your code
@@ -106,7 +106,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `analytics.php`. Be sure the values in your `.env` file have been set properly.
 
     ```php
-    {!> code-samples/analytics/quick-start.php [ln:1-60]!}
+    --8<-- "code-samples/analytics/quick-start.php:1:60"
     ```
 
     ### Run your code
@@ -130,7 +130,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     Create a file called `analytics.rb`. Be sure the values in your `.env` file have been set properly.
 
     ```ruby
-    {!> code-samples/analytics/quick-start.rb [ln:1-59]!}
+    --8<-- "code-samples/analytics/quick-start.rb:1:59"
     ```
 
     ### Run your code
@@ -154,7 +154,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     ### Edit the file 'Program.cs'
 
     ```c#
-    {!> code-samples/analytics/Program.cs !}
+    --8<-- "code-samples/analytics/Program.cs"
     ```
 
     ### Run Your Code
@@ -188,7 +188,7 @@ Follow the instructions found in our guide to [running Developer Guide code samp
     ### Edit the file 'AnalyticsQuickStart.java'
 
     ```java
-    {!> code-samples/analytics/AnalyticsQuickStart.java !}
+    --8<-- "code-samples/analytics/AnalyticsQuickStart.java"
     ```
 
     ### Build & Run Your Code

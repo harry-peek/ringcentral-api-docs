@@ -44,35 +44,35 @@ The response format for active calls mirrors that of Call Log responses exactly.
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/finding-active-calls.js !}
+    --8<-- "code-samples/voice/finding-active-calls.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/finding-active-calls.py !}
+    --8<-- "code-samples/voice/finding-active-calls.py"
     ```
     
 === "PHP"
 
     ```php
-    {!> code-samples/voice/finding-active-calls.php !}
+    --8<-- "code-samples/voice/finding-active-calls.php"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/finding-active-calls.cs !}
+    --8<-- "code-samples/voice/finding-active-calls.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/FindActiveUserCalls.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/FindActiveUserCalls.java"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/finding-active-calls.rb !}
+    --8<-- "code-samples/voice/finding-active-calls.rb"
     ```    

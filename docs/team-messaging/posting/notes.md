@@ -11,25 +11,25 @@ Select your preferred language below.
 === "Javascript"
 
     ```JavaScript
-    {!> code-samples/team-messaging/post-note.js !}
+    --8<-- "code-samples/team-messaging/post-note.js"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/team-messaging/post-note.py !}
+    --8<-- "code-samples/team-messaging/post-note.py"
     ```
 
 === "PHP"
 
     ```PHP
-    {!> code-samples/team-messaging/post-note.php !}
+    --8<-- "code-samples/team-messaging/post-note.php"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/team-messaging/post-note.rb !}
+    --8<-- "code-samples/team-messaging/post-note.rb"
     ```
 
 ## Notes Schema

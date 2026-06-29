@@ -67,7 +67,7 @@ The two key elements for a Telephony Session Notification are:
 ### Sample Telephony Session Notification Event
 
 ```json 
-{!> code-samples/voice/telephony-session-event.json !}
+--8<-- "code-samples/voice/telephony-session-event.json"
 ```
 
 ### Example Telephony Session Notification for a Typical Call Flow (Inbound & Outbound with all States & Sequence) 

@@ -63,41 +63,41 @@ The example below shows you how to create a new call monitoring group and add a 
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.cs !}
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/voice/code-snippets/create-update-call-monitoring-group.java !}
+    --8<-- "code-samples/voice/code-snippets/create-update-call-monitoring-group.java"
     ```
 
 ### Read call monitoring groups and group members
@@ -122,41 +122,41 @@ The example blow shows you how to read all call monitoring groups under an accou
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/call-monitoring-group.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/call-monitoring-group.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/call-monitoring-group.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/call-monitoring-group.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/code-snippets/call-monitoring-group.cs !}
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/voice/code-snippets/call-monitoring-group.java !}
+    --8<-- "code-samples/voice/code-snippets/call-monitoring-group.java"
     ```
 
 ## Using the Supervision API
@@ -214,7 +214,7 @@ To retrieve the supervisor's devices, authorize your app with the supervisor log
 }
 ```
 
-If you want to build your own soft phone using the RingCentral soft phone SDK, jump to this [section](#create-a-soft-phone-and-obtain-its-device-id).
+If you want to build your own soft phone using the RingCentral soft phone SDK, jump to this [section](#build-you-own-soft-phone-device).
 
 #### How to get a call telephony session Id and party Ids
 
@@ -244,41 +244,41 @@ Assume that an agent has an active call and the `supervisorDeviceId` (e.g. the d
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/call-supervision.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/call-supervision.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/call-supervision.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/voice/code-snippets/call-supervision.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/call-supervision.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/call-supervision.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/call-supervision.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/voice/code-snippets/call-supervision.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/code-snippets/call-supervision.cs !}
+    --8<-- "code-samples/voice/code-snippets/call-supervision.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/voice/code-snippets/call-supervision.java !}
+    --8<-- "code-samples/voice/code-snippets/call-supervision.java"
     ```
 
 ### Build you own soft-phone device

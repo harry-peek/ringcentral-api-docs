@@ -102,7 +102,7 @@ By leveraging the Thread Messaging APIs, developers can implement features such 
 The following guides have been created to assist developers in getting started quickly:
 
 * [Thread Messaging Configuration](configurations.md)
-* [Send Thread Messages](sending-thread-sms.md)
+* [Send Thread Messages](send-thread-sms.md)
 * [Threads Handling](threads-handling.md)
 * [Messages Handling](messages-handling.md)
 * [Notes Handling](notes-handling.md)

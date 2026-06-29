@@ -24,7 +24,7 @@ Your first step is to design the card if you have not already done so. The examp
 To make editing and loading this adaptive card a little easier, we will place the contents of this card into its own dedicated file called `callNotesCard.json`. 
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/form-submit.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/form-submit.json"
 ```
 
 ### Post the card
@@ -32,7 +32,7 @@ To make editing and loading this adaptive card a little easier, we will place th
 To post the card, the app would utilize either the [REST API](../posting/cards.md) to post the card. In the code excerpt below, the contents of the card are read off of the filesystem and processed through a templating system to replace variables found in the card template with values passed in at runtime. 
 
 ```js
-{!> code-samples/team-messaging/post-card-using-template.js [ln:21-] !}
+--8<-- "code-samples/team-messaging/post-card-using-template.js:21:"
 ```
 
 The above card when posted to RingCentral, will appear as shown below:
@@ -82,7 +82,7 @@ Here is a sample webhook you might receive for the adaptive card above.
 To ensure RingCentral is the originator of the event, and no one else might be impersonating the sender, we recommend people verify the uthenticity of the event by comparing the contents of the `X-Glip-Signature` header with a SHA1 hash of the request body.
 
 ```js
-{!> code-samples/team-messaging/verify-event.js !}
+--8<-- "code-samples/team-messaging/verify-event.js"
 ```
 
 ### Post a response

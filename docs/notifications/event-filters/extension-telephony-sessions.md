@@ -117,5 +117,5 @@ The client receives the detailed call notification payload as a JSON object.
 ## Example
 
 ```json
-{!> code-samples/events/extension-telephony-sessions.json !}
+--8<-- "code-samples/events/extension-telephony-sessions.json"
 ```

@@ -40,47 +40,47 @@ Follow the instructions on the [quick start](quick-start.md) section to setup an
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/ai/code-snippets-headers/header.js [ln:1-12] !}
-    {!> code-samples/ai/code-snippets/summarize.js [ln:10-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.js:1:12"
+    --8<-- "code-samples/ai/code-snippets/summarize.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/ai/code-snippets/summarize.py !}
-    {!> code-samples/ai/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/ai/code-snippets/summarize.py"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/ai/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/ai/code-snippets/summarize.php [ln:2-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/ai/code-snippets/summarize.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/ai/code-snippets/summarize.rb !}
-    {!> code-samples/ai/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/ai/code-snippets/summarize.rb"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/ai/code-snippets/summarize.cs !}
+    --8<-- "code-samples/ai/code-snippets/summarize.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/ai/code-snippets/summarize.java !}
+    --8<-- "code-samples/ai/code-snippets/summarize.java"
     ```
 
 ### Sample response
 
 ```json
-{!> code-samples/ai/summarize-response.json !}
+--8<-- "code-samples/ai/summarize-response.json"
 ```
 
 #### Summaries Object

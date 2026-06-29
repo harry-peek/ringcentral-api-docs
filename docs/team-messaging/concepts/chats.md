@@ -24,7 +24,7 @@ The following code sample shows a simple way to retrieve a list of chats. As you
 === "Javascript"
 
     ```js
-    {!> code-samples/team-messaging/get-chats.js !}
+    --8<-- "code-samples/team-messaging/get-chats.js"
     ```
 
 !!! hint "The example above assumed only page of results will be returned. Learn about [pagination](../manual/pagination.md) to iterate over a large result set."

@@ -26,5 +26,5 @@ Event filter `/restapi/v1.0/account/{accountId}/call-queues/{groupId}/presence` 
 ## Example
 
 ```json
-{!> code-samples/events/call-queue-member-presence.json !}
+--8<-- "code-samples/events/call-queue-member-presence.json"
 ```

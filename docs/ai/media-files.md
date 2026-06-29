@@ -20,7 +20,7 @@ RingCentral hosts all downloadable [media content](../basics/media.md) on a prot
 Here is an excerpt from a call to the [Call Log API](../voice/call-log/index.md) and shows an entry that contains a reference to a recording of a phone call.
 
 ```json hl_lines="24"
-{!> code-samples/voice/call-log-sample.json !}
+--8<-- "code-samples/voice/call-log-sample.json"
 ```
 
 ## Sample code to construct a content URI for accessing RingCentral call recording
@@ -33,41 +33,41 @@ The following example code shows how to obtain the access token using a RingCent
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/ai/code-snippets-headers/header.js !}
-    {!> code-samples/ai/code-snippets/access-token.js [ln:10-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.js"
+    --8<-- "code-samples/ai/code-snippets/access-token.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/ai/code-snippets/access-token.py !}
-    {!> code-samples/ai/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/ai/code-snippets/access-token.py"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/ai/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/ai/code-snippets/access-token.php [ln:2-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/ai/code-snippets/access-token.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/ai/code-snippets/access-token.rb !}
-    {!> code-samples/ai/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/ai/code-snippets/access-token.rb"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/ai/code-snippets/access-token.cs !}
+    --8<-- "code-samples/ai/code-snippets/access-token.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/ai/code-snippets/access-token.java !}
+    --8<-- "code-samples/ai/code-snippets/access-token.java"
     ```
 
 !!! Important

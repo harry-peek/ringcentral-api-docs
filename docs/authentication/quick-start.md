@@ -65,7 +65,7 @@ Select your preferred language below.
     Create a file called `index.js` using the contents below.
 
     ```javascript
-    {!> code-samples/auth/quick-start/javascript/index.js !}
+    --8<-- "code-samples/auth/quick-start/javascript/index.js"
     ```
 
     ### Create a __views__ folder and create an index.ejs and a test.ejs files under the views folder
@@ -73,13 +73,13 @@ Select your preferred language below.
     Create a file called <tt>index.ejs</tt>. In this file, we'll implement the login page.
 
     ``` html
-    {!> code-samples/auth/quick-start/javascript/index.ejs !}
+    --8<-- "code-samples/auth/quick-start/javascript/index.ejs"
     ```
 
     Create a file called <tt>test.ejs</tt>. In this file, we'll add a few API call test cases and a logout button.
 
     ``` html
-    {!> code-samples/auth/quick-start/javascript/test.ejs !}
+    --8<-- "code-samples/auth/quick-start/javascript/test.ejs"
     ```
 
     ### Run your code
@@ -107,7 +107,7 @@ Select your preferred language below.
     Create a file called <tt>index.py</tt> using the contents below.
 
     ```python
-    {!> code-samples/auth/quick-start/python/index.py !}
+    --8<-- "code-samples/auth/quick-start/python/index.py"
     ```
 
     ### Create a templates folder and create an index.html and a test.html file under the templates folder
@@ -115,13 +115,13 @@ Select your preferred language below.
     Create a file called <tt>index.html</tt>. In this file, we'll implement the login page.
 
     ``` html
-    {!> code-samples/auth/quick-start/python/index.html !}
+    --8<-- "code-samples/auth/quick-start/python/index.html"
     ```
 
     Create a file called <tt>test.html</tt>. In this file, we'll add a few API call test cases and a logout button.
 
     ``` html
-    {!> code-samples/auth/quick-start/python/test.html !}
+    --8<-- "code-samples/auth/quick-start/python/test.html"
     ```
 
     ### Run your code
@@ -148,7 +148,7 @@ Select your preferred language below.
     Create a file called <tt>index.php</tt>. In this file we'll implement the login page.
 
     ``` HTML+PHP
-    {!> code-samples/auth/quick-start/php/index.php !}
+    --8<-- "code-samples/auth/quick-start/php/index.php"
     ```
 
     ### Run your code
@@ -186,7 +186,7 @@ Select your preferred language below.
     Override `Startup.cs` with content below. Be sure to edit the variables in <ALL CAPS> with your app credentials.
 
     ```c#
-    {!> code-samples/auth/quick-start/c-sharp/Startup.cs !}
+    --8<-- "code-samples/auth/quick-start/c-sharp/Startup.cs"
     ```
 
     ### Run your code
@@ -246,7 +246,7 @@ Select your preferred language below.
     Be sure to edit the variables in ALL CAPS with your app and user credentials.
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/AuthorizationFlow.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/AuthorizationFlow.java"
     ```
 
     ### Run your code
@@ -274,7 +274,7 @@ Select your preferred language below.
     Browse to the "app/controllers" folder and edit the <tt>main_controller.rb</tt>. Be sure to edit the variables in &lt;ALL CAPS> with your app credentials.
 
     ```ruby
-    {!> code-samples/auth/quick-start/ruby/main_controller.rb !}
+    --8<-- "code-samples/auth/quick-start/ruby/main_controller.rb"
     ```
 
     ### Edit the routes.rb file
@@ -282,7 +282,7 @@ Select your preferred language below.
     Browse the the "config" folder and edit the file <tt>routes.rb</tt>
 
     ```ruby
-    {!> code-samples/auth/quick-start/ruby/routes.rb !}
+    --8<-- "code-samples/auth/quick-start/ruby/routes.rb"
     ```
 
     ### Implement a login page
@@ -290,7 +290,7 @@ Select your preferred language below.
     Browse to the "app/views/main" folder and edit the <tt>login.html.erb</tt>.
 
     ```html
-    {!> code-samples/auth/quick-start/ruby/login.html.erb !}
+    --8<-- "code-samples/auth/quick-start/ruby/login.html.erb"
     ```
 
     ### Implement a test page
@@ -305,7 +305,7 @@ Select your preferred language below.
     Browse to the "app/views/main" folder and edit the <tt>test.html.erb</tt>.
 
     ```html
-    {!> code-samples/auth/quick-start/ruby/test.html.erb !}
+    --8<-- "code-samples/auth/quick-start/ruby/test.html.erb"
     ```
 
     ### Run your code

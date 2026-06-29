@@ -243,7 +243,7 @@ Authorization: Bearer REPLACE_WITH_YOUR_VALID_ACCESS_TOKEN
 ## Full sample request for Analytics Timeline Report
 
 ```json
-{!> code-samples/analytics/aggregate-request-body.json !}
+--8<-- "code-samples/analytics/aggregate-request-body.json"
 ```
 
 The following code samples show how to read analytics timeline data.
@@ -257,41 +257,41 @@ The following code samples show how to read analytics timeline data.
 === "Javascript"
 
     ```javascript
-    {!> code-samples/analytics/code-snippets-headers/header.js !}
-    {!> code-samples/analytics/code-snippets/timeline-by-users.js [ln:10-82] !}
+    --8<-- "code-samples/analytics/code-snippets-headers/header.js"
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.js:10:82"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/analytics/code-snippets/timeline-by-users.py !}
-    {!> code-samples/analytics/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.py"
+    --8<-- "code-samples/analytics/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/analytics/code-snippets-headers/header.php [ln:1-9]!}
-    {!> code-samples/analytics/code-snippets/timeline-by-users.php [ln:2-]!}
+    --8<-- "code-samples/analytics/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/analytics/code-snippets/timeline-by-users.rb !}
-    {!> code-samples/analytics/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.rb"
+    --8<-- "code-samples/analytics/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
 
     ```C#
-    {!> code-samples/analytics/code-snippets/timeline-by-users.cs !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/analytics/code-snippets/timeline-by-users.java !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-users.java"
     ```
 
 ### Call the Analytics Timeline API - Grouped by call queues
@@ -304,39 +304,39 @@ The following code samples show how to read analytics timeline data.
 === "Javascript"
 
     ```javascript
-    {!> code-samples/analytics/code-snippets-headers/header.js !}
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.js [ln:10-81] !}
+    --8<-- "code-samples/analytics/code-snippets-headers/header.js"
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.js:10:81"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.py !}
-    {!> code-samples/analytics/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.py"
+    --8<-- "code-samples/analytics/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/analytics/code-snippets-headers/header.php [ln:1-9]!}
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.php [ln:2-]!}
+    --8<-- "code-samples/analytics/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.rb !}
-    {!> code-samples/analytics/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.rb"
+    --8<-- "code-samples/analytics/code-snippets-headers/footer.py"
     ```
 
 === "C#"
 
     ```C#
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.cs !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/analytics/code-snippets/timeline-by-queues.java !}
+    --8<-- "code-samples/analytics/code-snippets/timeline-by-queues.java"
     ```

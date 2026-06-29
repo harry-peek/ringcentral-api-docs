@@ -5,7 +5,7 @@ A simple way to test an incoming webhook and to make formatting messages easier 
 Let's begin by creating the file `test.json` using the following contents:
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/simple-card.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/simple-card.json"
 ```
 
 Then from the same directory in which you created the above file, run the following command -- being sure to use the [webhook URL you created on your own](webhook-creation.md). 
@@ -24,6 +24,6 @@ When complete, you should see a message that looks something like this:
 The following sample script bootstraps the curl command above to make invoking the command a little easier and less verbose. 
 
 ```sh
-{!> code-samples/team-messaging/adaptive-cards/test.sh !}
+--8<-- "code-samples/team-messaging/adaptive-cards/test.sh"
 ```
 

@@ -49,7 +49,7 @@ The [`/restapi/v1.0/account/~/message-threads/messages`](https://developers.ring
 ]
 ```
 
-A thread message does not include the pair of sender and recipient phone numbers. Developers should use the `threadId` in each message record to connect messages in a thread to create a conversation. To detect the pair of phone numbers, developers should call the [Read Message Thread API](../threads-handling/#read-a-message-thread).
+A thread message does not include the pair of sender and recipient phone numbers. Developers should use the `threadId` in each message record to connect messages in a thread to create a conversation. To detect the pair of phone numbers, developers should call the [Read Message Thread API](threads-handling.md#read-a-message-thread).
 
 ## Delete messages
 
@@ -181,24 +181,24 @@ The sample code below download a message attachment(s) and save to a local file.
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js [ln:1-13] !}
-    {!> code-samples/messaging/code-snippets/download-thread-msg-attachments.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js:1:13"
+    --8<-- "code-samples/messaging/code-snippets/download-thread-msg-attachments.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/messaging/code-snippets/download-thread-msg-attachments.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py [ln:1-6]!}
+    --8<-- "code-samples/messaging/code-snippets/download-thread-msg-attachments.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py:1:6"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php [ln:1-13] !}
-    {!> code-samples/messaging/code-snippets/download-thread-msg-attachments.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php:1:13"
+    --8<-- "code-samples/messaging/code-snippets/download-thread-msg-attachments.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/messaging/code-snippets/download-thread-msg-attachments.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/messaging/code-snippets/download-thread-msg-attachments.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb:1:4"
     ```

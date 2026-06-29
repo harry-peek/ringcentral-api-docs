@@ -80,7 +80,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Create a file called `server.js` using the contents below. Set the PORT to the same port number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.js !}
+    --8<-- "code-samples/ai/server.js"
     ```
 
     Finally, start your server.
@@ -94,7 +94,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Create a file called `server.py` using the contents below. Set the PORT to the same PORT number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.py !}
+    --8<-- "code-samples/ai/server.py"
     ```
 
     Finally, start your server.
@@ -108,7 +108,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Create a folder named `webhook` and navigate to the new folder then create a file called `server.php` using the contents below.
 
     ```js
-    {!> code-samples/ai/server.php !}
+    --8<-- "code-samples/ai/server.php"
     ```
 
     Finally, start your server.
@@ -130,7 +130,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Create a file called `server.rb` using the contents below. Set the PORT to the same PORT number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.rb !}
+    --8<-- "code-samples/ai/server.rb"
     ```
 
     #### Run your code
@@ -157,7 +157,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Edit the `Startup.cs` file and override its content with code below:
 
     ```c#
-    {!> code-samples/ai/server/Startup.cs !}
+    --8<-- "code-samples/ai/server/Startup.cs"
     ```
 
     #### Run the server code
@@ -200,7 +200,7 @@ Let's create a simple web server on your local machine to receive `webhook` noti
     Edit the `WebhookServer.java` with code below:
 
     ```Java
-    {!> code-samples/ai/WebhookServer.java !}
+    --8<-- "code-samples/ai/WebhookServer.java"
     ```
 
     Build and run the app from Eclipse.

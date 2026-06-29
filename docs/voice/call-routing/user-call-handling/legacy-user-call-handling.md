@@ -116,37 +116,37 @@ The following code sample shows how to create a user custom answering rule that 
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/user-answering-rules.js !}
+    --8<-- "code-samples/voice/user-answering-rules.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/user-answering-rules.py !}
+    --8<-- "code-samples/voice/user-answering-rules.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/user-answering-rules.php !}
+    --8<-- "code-samples/voice/user-answering-rules.php"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/user-answering-rules.cs !}
+    --8<-- "code-samples/voice/user-answering-rules.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/CreateCustomUserAnsweringRule.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/CreateCustomUserAnsweringRule.java"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/user-answering-rules.rb !}
+    --8<-- "code-samples/voice/user-answering-rules.rb"
     ```
 
 Upon successful API call completion, the response contains the id (`ruleId`) and other information of the newly created rule.

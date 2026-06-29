@@ -33,7 +33,7 @@ Containers provide the basic building blocks for laying out text, images and for
 **Sample card with various containers**
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/basic-columns.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/basic-columns.json"
 ```
 
 The above card when posted to RingCentral, will appear as shown below:
@@ -53,7 +53,7 @@ Elements comprise the core content of a card. They are static and uneditable. Th
 **Sample rich text card**
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/rich-text.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/rich-text.json"
 ```
 
 The above card when posted to RingCentral, will appear as shown below:
@@ -83,7 +83,7 @@ Input elements comprise all of the form elements that allow users to input data 
 **Sample card with input elements**
 
 ```json
-{!> code-samples/team-messaging/adaptive-cards/inputs.json !}
+--8<-- "code-samples/team-messaging/adaptive-cards/inputs.json"
 ```
 
 The above card when posted to RingCentral, will appear as shown below:

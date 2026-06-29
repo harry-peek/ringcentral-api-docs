@@ -240,8 +240,8 @@ Refers to the user's own desktop app or mobile app configured to always ring.
 
 The `targets` object within a "RingAlwaysGroupAction" object can be specified with one of the following target types:
 
-- "AllDesktopRingTarget". See the [AllDesktopRingTarget object](#all-desktop-ring-target-object)
-- "AllMobileRingTarget". See the [AllMobileRingTarget object](#all-desktop-ring-target-object)
+- "AllDesktopRingTarget". See the [AllDesktopRingTarget object](#alldesktopringtarget-object)
+- "AllMobileRingTarget". See the [AllMobileRingTarget object](#allmobileringtarget-object)
 
 !!! notes
     When the "RingAlwaysGroupAction" is applied to the "AllDesktopRingTarget" or "AllMobileRingTarget", the corresponding "RingGroupAction" configuration for that target must be removed from the call handling settings.
@@ -360,8 +360,8 @@ The following example demonstrates how to add a new call forwarding target of ty
     Create a file named `update-wh-state-call-forwarding-targets.js`, then copy and paste the following code into the file.
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.js:10:"
     ```
 
 === "PHP"
@@ -378,8 +378,8 @@ The following example demonstrates how to add a new call forwarding target of ty
     Create a file named `update-wh-state-call-forwarding-targets.php`, then copy and paste the following code into the file.
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.php:2:"
     ```
 
 === "Python"
@@ -395,8 +395,8 @@ The following example demonstrates how to add a new call forwarding target of ty
     Create a file named `update-wh-state-call-forwarding-targets.py`, then copy and paste the following code into the file.
 
     ```python
-    {!> code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py"
     ```
 
 === "Ruby"
@@ -412,8 +412,8 @@ The following example demonstrates how to add a new call forwarding target of ty
     Create a file named `update-wh-state-call-forwarding-targets.rb`, then copy and paste the following code into the file.
 
     ```ruby
-    {!> code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/voice/code-snippets/update-wh-state-call-forwarding-targets.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb"
     ```
 
 ### Sample response

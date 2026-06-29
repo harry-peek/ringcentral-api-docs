@@ -9,7 +9,7 @@ The RingCentral Artificial Intelligence API listed below has been deprecated and
 - `/ai/text/v1/async/punctuate`
 - `/ai/status/v1/jobs/jobId`
 
-Developers should transition to the [AI Conversation Expert API](./ace), which is the recommended replacement for accessing conversation insights and advanced AI-driven capabilities. The AI Conversation Expert API provides improved functionality, enhanced accuracy, and ongoing support for features such as conversation analysis, insights generation, and other AI-powered capabilities.
+Developers should transition to the [AI Conversation Expert API](ace.md), which is the recommended replacement for accessing conversation insights and advanced AI-driven capabilities. The AI Conversation Expert API provides improved functionality, enhanced accuracy, and ongoing support for features such as conversation analysis, insights generation, and other AI-powered capabilities.
 
 ## What this means for developers
 

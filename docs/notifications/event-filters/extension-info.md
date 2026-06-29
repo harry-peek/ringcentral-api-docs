@@ -52,6 +52,6 @@ The full updated extension data is accessible by calling the [Get Extension Info
 ## Example
 
 ```json
-{!> code-samples/events/extension-info.json !}
+--8<-- "code-samples/events/extension-info.json"
 ```
 

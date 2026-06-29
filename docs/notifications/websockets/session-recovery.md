@@ -26,7 +26,7 @@ wss://servername.ringcentral.com/ws?access_token=<WS access token>&wsc=<WSC toke
 As a result of your session recovery attempt the client will receive another `ConnectionDetails` message, which will also include a `recoveryState` field disclosing whether or not the recovery was a success. 
 
 ```json
-{! code-samples/websockets/session-recovery.json !}
+--8<-- "code-samples/websockets/session-recovery.json"
 ```
 
 ### Recovery success

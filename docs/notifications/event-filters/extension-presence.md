@@ -33,5 +33,5 @@
 ## Example
 
 ```json
-{!> code-samples/events/extension-presence.json !}
+--8<-- "code-samples/events/extension-presence.json"
 ```

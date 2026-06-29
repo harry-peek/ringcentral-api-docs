@@ -49,6 +49,6 @@ The updated extension data is accessible by calling the methods [Get Extension L
 ## Example
 
 ```json
-{!> code-samples/events/extension-list.json !}
+--8<-- "code-samples/events/extension-list.json"
 ```
 

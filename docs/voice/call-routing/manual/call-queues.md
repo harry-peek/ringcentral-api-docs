@@ -144,35 +144,35 @@ The following code sample shows how to add 2 new members to a call queue named "
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/call-queues.js !}
+    --8<-- "code-samples/voice/call-queues.js"
     ```    
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/call-queues.py !}
+    --8<-- "code-samples/voice/call-queues.py"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/call-queues.php !}
+    --8<-- "code-samples/voice/call-queues.php"
     ```
 
 === "C#"
 
     ```c#
-    {!> code-samples/voice/call-queues.cs !}
+    --8<-- "code-samples/voice/call-queues.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/java-samples/src/main/java/com/ringcentral/UpdateCallQueueMembers.java !}
+    --8<-- "code-samples/java-samples/src/main/java/com/ringcentral/UpdateCallQueueMembers.java"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/call-queues.rb !}
+    --8<-- "code-samples/voice/call-queues.rb"
     ```

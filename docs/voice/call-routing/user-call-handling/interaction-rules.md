@@ -162,27 +162,27 @@ With the `bodyParams` above, we can call the API to create a new custom rule for
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/voice/code-snippets-headers/header.js !}
-    {!> code-samples/voice/code-snippets/create-interaction-rule.js [ln:10-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.js"
+    --8<-- "code-samples/voice/code-snippets/create-interaction-rule.js:10:"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/voice/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/voice/code-snippets/create-interaction-rule.php [ln:2-] !}
+    --8<-- "code-samples/voice/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/voice/code-snippets/create-interaction-rule.php:2:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/voice/code-snippets/create-interaction-rule.py !}
-    {!> code-samples/voice/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/voice/code-snippets/create-interaction-rule.py"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.py"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/voice/code-snippets/create-interaction-rule.rb !}
-    {!> code-samples/voice/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/voice/code-snippets/create-interaction-rule.rb"
+    --8<-- "code-samples/voice/code-snippets-headers/footer.rb"
     ```

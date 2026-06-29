@@ -124,34 +124,34 @@ The following code sample shows how to call the Compliance Export API to export 
 
 === "JavaScript"
     ```javascript
-    {!> code-samples/team-messaging/code-snippets-headers/header.js !}
-    {!> code-samples/team-messaging/code-snippets/compliance-export.js [ln:10-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/team-messaging/code-snippets/compliance-export.py !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.py"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/team-messaging/code-snippets-headers/header.php !}
-    {!> code-samples/team-messaging/code-snippets/compliance-export.php [ln:2-] !}
+    --8<-- "code-samples/team-messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/team-messaging/code-snippets/compliance-export.rb !}
-    {!> code-samples/team-messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.rb"
+    --8<-- "code-samples/team-messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
     ```c#
-    {!> code-samples/team-messaging/code-snippets/compliance-export.cs !}
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.cs"
     ```
 
 === "Java"
     ```java
-    {!> code-samples/team-messaging/code-snippets/compliance-export.java !}
+    --8<-- "code-samples/team-messaging/code-snippets/compliance-export.java"
     ```

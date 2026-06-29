@@ -1,6 +1,6 @@
 # Building your first application
 
-{! mdx_includes/first-api-call-reminder.md !}
+--8<-- "mdx_includes/first-api-call-reminder.md"
 
 In previous sections of this getting started guide you completed key steps that have prepared you for coding your first application. This includes:
 

@@ -5,6 +5,6 @@ Once a [connection to the WebSocket server has been established](subscribing.md)
 **Example Web Socket server notification**
 
 ```js
-{! code-samples/websockets/websocket-notification.json !}
+--8<-- "code-samples/websockets/websocket-notification.json"
 ```
 

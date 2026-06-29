@@ -40,11 +40,11 @@ Event filter `/restapi/v1.0/account/{accountId}/a2p-sms/messages` enables notifi
 ## Example 1: Inbound Message
 
 ```json
-{!> code-samples/events/batch-messages-1.json !}
+--8<-- "code-samples/events/batch-messages-1.json"
 ```
 
 ## Example 2: Outbound Message
 
 ```json
-{!> code-samples/events/batch-messages-2.json !}
+--8<-- "code-samples/events/batch-messages-2.json"
 ```

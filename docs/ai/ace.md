@@ -111,7 +111,7 @@ Supported domains:
 ## Example of API Response
 
 ```json
-{!> code-samples/ai/ace/ace-pbx-sample-data.json !}
+--8<-- "code-samples/ai/ace/ace-pbx-sample-data.json"
 ```
 
 | Parameter	| Type | Description |

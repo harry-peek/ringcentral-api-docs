@@ -1,6 +1,6 @@
 # Frequently asked questions & common problems for RingCentral Video developers
 
-{! mdx_includes/video-beta-notice.md !}
+--8<-- "mdx_includes/video-beta-notice.md"
 
 ### Is a RingCentral developer account free?
 

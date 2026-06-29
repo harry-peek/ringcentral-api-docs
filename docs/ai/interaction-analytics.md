@@ -57,47 +57,47 @@ Follow the instructions on the [quick start](quick-start.md) section to setup an
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/ai/code-snippets-headers/header.js !}
-    {!> code-samples/ai/code-snippets/interactions.js [ln:10-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.js"
+    --8<-- "code-samples/ai/code-snippets/interactions.js:10:"
     ```
 
 === "Python"
 
     ```python
-    {!> code-samples/ai/code-snippets/interactions.py !}
-    {!> code-samples/ai/code-snippets-headers/footer.py [ln:1-5] !}
+    --8<-- "code-samples/ai/code-snippets/interactions.py"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.py:1:5"
     ```
 
 === "PHP"
 
     ```php
-    {!> code-samples/ai/code-snippets-headers/header.php [ln:1-9] !}
-    {!> code-samples/ai/code-snippets/interactions.php [ln:2-] !}
+    --8<-- "code-samples/ai/code-snippets-headers/header.php:1:9"
+    --8<-- "code-samples/ai/code-snippets/interactions.php:2:"
     ```
 
 === "Ruby"
 
     ```ruby
-    {!> code-samples/ai/code-snippets/interactions.rb !}
-    {!> code-samples/ai/code-snippets-headers/footer.rb [ln:1-4] !}
+    --8<-- "code-samples/ai/code-snippets/interactions.rb"
+    --8<-- "code-samples/ai/code-snippets-headers/footer.rb:1:4"
     ```    
 
 === "C#"
 
     ```c#
-    {!> code-samples/ai/code-snippets/interactions.cs !}
+    --8<-- "code-samples/ai/code-snippets/interactions.cs"
     ```
 
 === "Java"
 
     ```java
-    {!> code-samples/ai/code-snippets/interactions.java !}
+    --8<-- "code-samples/ai/code-snippets/interactions.java"
     ```
 
 ### Example response
 
 ```json
-{!> code-samples/ai/interactions-response.json !}
+--8<-- "code-samples/ai/interactions-response.json"
 ```
 
 ### Interaction-Analytics-Object

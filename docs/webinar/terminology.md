@@ -1,6 +1,6 @@
 # Webinar terminology
 
-{! mdx_includes/webinar-beta-notice.md !}
+--8<-- "mdx_includes/webinar-beta-notice.md"
 
 The following glossary will help you better understand some of the nuances between different terms used throughout the webinar documentation and eco-system. 
 

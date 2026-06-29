@@ -59,7 +59,7 @@ $ ngrok http 3000
     Create a file called `server.js` using the contents below. Set the PORT to the same port number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.js !}
+    --8<-- "code-samples/ai/server.js"
     ```
 
     Finally, start your server.
@@ -73,7 +73,7 @@ $ ngrok http 3000
     Create a file called `server.py` using the contents below. Set the PORT to the same PORT number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.py !}
+    --8<-- "code-samples/ai/server.py"
     ```
 
     Finally, start your server.
@@ -87,7 +87,7 @@ $ ngrok http 3000
     Create a folder named `webhook` and navigate to the new folder then create a file called `server.php` using the contents below.
 
     ```js
-    {!> code-samples/ai/server.php !}
+    --8<-- "code-samples/ai/server.php"
     ```
 
     Finally, start your server.
@@ -109,7 +109,7 @@ $ ngrok http 3000
     Create a file called `server.rb` using the contents below. Set the PORT to the same PORT number opening for the ngrok tunnel.
 
     ```js
-    {!> code-samples/ai/server.rb !}
+    --8<-- "code-samples/ai/server.rb"
     ```
 
     #### Run your code
@@ -136,7 +136,7 @@ $ ngrok http 3000
     Edit the `Startup.cs` file and override its content with code below:
 
     ```c#
-    {!> code-samples/ai/server/Startup.cs !}
+    --8<-- "code-samples/ai/server/Startup.cs"
     ```
 
     #### Run the server code
@@ -179,7 +179,7 @@ $ ngrok http 3000
     Edit the `WebhookServer.java` with code below:
 
     ```Java
-    {!> code-samples/ai/WebhookServer.java !}
+    --8<-- "code-samples/ai/WebhookServer.java"
     ```
 
     Build and run the app from Eclipse.
@@ -200,7 +200,7 @@ $ ngrok http 3000
     Create a file called `speech-to-text.js` using the contents below.
 
     ```javascript
-    {!> code-samples/ai/quick-start.js [ln:1-54] !}
+    --8<-- "code-samples/ai/quick-start.js:1:54"
     ```
 
     #### Run your code
@@ -225,7 +225,7 @@ $ ngrok http 3000
     Create a file called `speech-to-text.py` using the contents below.
 
     ```js
-    {!> code-samples/ai/quick-start.py [ln:1-47] !}
+    --8<-- "code-samples/ai/quick-start.py:1:47"
     ```
 
     #### Run your code
@@ -250,7 +250,7 @@ $ ngrok http 3000
     Create a file called `speech-to-text.php` using the contents below.
 
     ```php
-    {!> code-samples/ai/quick-start.php [ln:1-53] !}
+    --8<-- "code-samples/ai/quick-start.php:1:53"
     ```
 
     ### Run your code
@@ -274,7 +274,7 @@ $ ngrok http 3000
     Create a file called `speech-to-text.rb` using the contents below.
 
     ```ruby
-    {!> code-samples/ai/quick-start.rb [ln:1-53] !}
+    --8<-- "code-samples/ai/quick-start.rb:1:53"
     ```
 
     ### Run your code
@@ -298,7 +298,7 @@ $ ngrok http 3000
     ### Edit the file 'Program.cs' using the content below:
 
     ```c#
-    {!> code-samples/ai/quick-start.cs !}
+    --8<-- "code-samples/ai/quick-start.cs"
     ```
 
     ### Run Your Code
@@ -331,7 +331,7 @@ $ ngrok http 3000
     ### Edit the file 'SpeechToTextQuickStart.java' using the content below:
 
     ```java
-    {!> code-samples/ai/quick-start.java !}
+    --8<-- "code-samples/ai/quick-start.java"
     ```
 
     ### Build & Run Your Code
@@ -343,5 +343,5 @@ $ ngrok http 3000
 When RingCentral has fully processed the request, a response will be posted to the server you created previously. The response should look similar to the following.
 
 ```bash
-{! code-samples/ai/quick-start-response.json !}
+--8<-- "code-samples/ai/quick-start-response.json"
 ```

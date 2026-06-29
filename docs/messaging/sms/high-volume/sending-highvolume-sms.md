@@ -31,36 +31,36 @@ Simple request to broadcast the same message to multiple recipients.
 === "JavaScript"
 
     ```javascript
-    {!> code-samples/messaging/code-snippets-headers/header.js !}
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.js [ln:10-] !}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.js"
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.js:10:"
     ```
 
 === "Python"
     ```python
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.py !}
-    {!> code-samples/messaging/code-snippets-headers/footer.py !}
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.py"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.py"
     ```
 
 === "PHP"
     ```php
-    {!> code-samples/messaging/code-snippets-headers/header.php !}
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.php [ln:2-]!}
+    --8<-- "code-samples/messaging/code-snippets-headers/header.php"
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.php:2:"
     ```
 
 === "Ruby"
     ```ruby
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.rb !}
-    {!> code-samples/messaging/code-snippets-headers/footer.rb !}
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.rb"
+    --8<-- "code-samples/messaging/code-snippets-headers/footer.rb"
     ```
 
 === "C#"
     ```c#
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.cs !}
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.cs"
     ```
 
 === "Java"
     ```java
-    {!> code-samples/messaging/code-snippets/send-a2p-sms.java !}
+    --8<-- "code-samples/messaging/code-snippets/send-a2p-sms.java"
     ```
 
 ### Response

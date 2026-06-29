@@ -7,7 +7,7 @@ To learn how to post a message to a RingCentral chat, let's start with the ubiqu
 With a chat ID in hand, posting is done with a simple REST API call, shown below.
 
 ```javascript
-{! code-samples/team-messaging/post-text-message.js [ln:23-] !}
+--8<-- "code-samples/team-messaging/post-text-message.js:23:"
 ```
 
 The code above will result in a chat message that appears as follows:
@@ -29,7 +29,7 @@ Every user within RingCentral has a permanent and unique chat that is accessible
 The code sample below queries the Chats endpoint for the chat of type "Personal." The chat ID associated with that chat will be found in the response. 
 
 ```javascript
-{! code-samples/team-messaging/get-personal-chat.js [ln:12-] !}
+--8<-- "code-samples/team-messaging/get-personal-chat.js:12:"
 ```
 
 ## Posting cards via the REST API
