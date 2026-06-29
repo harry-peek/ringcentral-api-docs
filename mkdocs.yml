@@ -198,10 +198,10 @@ nav:
 
     - 'Posting via REST API':
       - 'Posting messages': 'team-messaging/posting/index.md'
-      - 'Posting thread messages': 'team-messaging/posting/threads.md'
       - 'Posting cards': 'team-messaging/posting/cards.md'
       - 'Posting notes': 'team-messaging/posting/notes.md'
       - 'Posting tasks': 'team-messaging/posting/tasks.md'
+      - 'Threaded messages': 'team-messaging/posting/threads.md'
       - 'Uploading files': 'team-messaging/posting/file-uploads.md'
 
     - 'Adaptive cards':
