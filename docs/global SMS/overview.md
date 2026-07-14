@@ -203,8 +203,6 @@ Use the following example to send an SMS using Omnichannel API.
     {!> code-samples/messaging/global-business/send-single-sms.sh !}
     ```
 
-[Detailed API Reference on sending an SMS](https://messente.com/documentation/messente-api/omnimessage/)
-
 ## Get delivery reports
 
 Messente tracks your sent message and reports [status updates](delivery-report.md) back to you.
