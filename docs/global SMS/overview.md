@@ -155,10 +155,7 @@ Select your preferred programming language and follow the instructions.
 
     Take a look at the library's [GitHub](https://github.com/messente/messente-api-csharp) and [NuGet](https://www.nuget.org/packages/com.Messente.Api) pages.
 
-[Let us know if your preferred language is not in the list](https://messente.com/contact)
 
-!!! warning
-    These libraries only contain Omnichannel and Phonebook API features. For other Messente features, you need to install different set of libraries. [Libraries page](https://messente.com/documentation/tools/libraries/) contains the list of all our SDKs.
 
 ## Send a single SMS
 
@@ -212,7 +209,7 @@ Use the following example to send an SMS using Omnichannel API.
 
 Messente tracks your sent message and reports [status updates](delivery-report.md) back to you.
 
-To be able to view the status, you must add a callback URL to the message. Messente will use this URL to make HTTP POST requests, if there is a status update.
+To be able to view the status, you must add a callback URL to the message. We will use this URL to make HTTP POST requests, if there is a status update.
 
 Here is a code snippet for you to test it out quickly.
 
