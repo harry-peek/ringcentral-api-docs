@@ -1,7 +1,7 @@
 
 # Introduction to Global Business SMS
 
-!!! info "Independent Account Required: To get started [contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo)"
+!!! info "Independent Account Required: To get started contact [developer relations](https://developers.ringcentral.com/sms-api#requestinfo)"
 
 
 ## What You Can Build
@@ -32,7 +32,7 @@ To begin testing or moving your high-volume messaging workloads to Ring Central,
 ### Implementation Flow
 
 1. **Request an Account**
-   [Contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo) and register for a business account
+   Contact [developer relations](https://developers.ringcentral.com/sms-api#requestinfo) and register for a business account
 
 2. **Explore the API Reference** *(Authentication & Endpoints)*
    Review the documentation for authentication protocols and base URLs.
