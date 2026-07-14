@@ -6,11 +6,11 @@ Welcome to the RingCentral developer community! As part of our commitment to exp
 
 While we work behind the scenes to deeply integrate Messente’s infrastructure into the core RingCentral developer platform, developers can immediately leverage Messente’s powerful Omnichannel messaging APIs to scale their global user engagement.
 
-!!! info "Independent Account Required: To use the capabilities detailed below, you will need to sign up for a separate account directly via the Messente team. [Contact Messente to Sign-up →](https://messente.com/talk-to-sales)"
+!!! info "Independent Account Required: To get started [contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo)"
 
 
 ## What You Can Build
-Messente specializes in high-volume, global bulk messaging with smart routing across 190+ countries. Using the Messente Omnichannel API, you can send notifications, verification codes (2FA), and marketing campaigns across multiple conversational platforms using a single, unified payload.
+Global Business SMS is ideal for high-volume, global bulk messaging with smart routing across 190+ countries. You can send notifications, verification codes (2FA), and marketing campaigns across multiple conversational platforms using a single, unified payload.
 
 | Channel | Core Capabilities | Best For |
 | :--- | :--- | :--- |
@@ -37,10 +37,10 @@ To begin testing or moving your high-volume messaging workloads to Messente, ple
 ### Implementation Flow
 
 1. **Request an Account**
-   Visit [Messente](https://messente.com/) and register for a business account
+   [Contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo) and register for a business account
 
 2. **Explore the API Reference** *(Authentication & Endpoints)*
-   Review the specialized [Messente Omnichannel Documentation](https://messente.com/documentation/) for authentication protocols and base URLs.
+   Review the documentation for authentication protocols and base URLs.
 
 3. **Configure Webhooks** *(Real-time Delivery Status)*
    Set up your server endpoints to listen for live delivery receipts (DLRs) and incoming user replies.
