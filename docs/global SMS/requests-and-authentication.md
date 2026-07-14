@@ -17,7 +17,7 @@ Learn the basics of how to make a request and authenticate yourself.
 
 ### Authentication
 
-Authentication is done using HTTP Basic Authentication with your API username and password. [Sign up](https://dashboard.messente.com/register) to Messente and [receive your API credentials](https://dashboard.messente.com/api-settings) (no credit card required).
+Authentication is done using HTTP Basic Authentication with your API username and password. [Contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo) to get started
 
 ### Making a Request
 
@@ -50,7 +50,7 @@ curl -X POST \
 
 ### IP Address Whitelisting
 
-Configure your account in the [dashboard](https://dashboard.messente.com/api-settings) to allow API requests only from certain IPs.
+We recommend configuring your account to allow API requests only from certain IPs.
 
 If you do not have a fixed IP address, you can also specify the [IP address ranges](https://messente.com/blog/messente/whitelist-ip-address-range-sms-api) in CIDR notation.
 
