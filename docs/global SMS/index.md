@@ -27,7 +27,7 @@ Global Business SMS is ideal for high-volume, global bulk messaging with smart r
 
 ## Ready to Explore?
 
-To begin testing or moving your high-volume messaging workloads to Messente, please reach out to their team to get your API keys and sandbox environment provisioned.
+To begin testing or moving your high-volume messaging workloads to Ring Central, please reach out to their team to get your API keys and sandbox environment provisioned.
 
 ### Implementation Flow
 
@@ -43,4 +43,4 @@ To begin testing or moving your high-volume messaging workloads to Messente, ple
 ---
 
 ### Behind the Scenes: What's Next?
-We are actively designing a unified developer experience where you will eventually be able to manage your RingCentral UCaaS/CCaaS APIs and Messente bulk messaging tools from a single login, contract, and credential set. Stay tuned to our developer newsletter for integration timelines!
+We are actively designing a unified developer experience where you will eventually be able to manage your RingCentral UCaaS/CCaaS APIs and Global Bussiness SMS messaging tools from a single login, contract, and credential set. Stay tuned to our developer newsletter for integration timelines!
