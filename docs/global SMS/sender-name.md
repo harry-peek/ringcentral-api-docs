@@ -12,10 +12,9 @@ Identify yourself with a telephone number or as a brand.
 
 ## What is a Sender Name?
 Your sender name (or Sender ID) is the phone number or name that the recipient sees as the sender of the message.
-![Sender Name](https://messente.com/documentation/img/guides/sender_name_example.png)
 
 ## Sender types
-Messente supports 3 different types of sender IDs:
+Global Business SMS supports 3 different types of sender IDs:
 
 * Regular phone number (eg +372 5555 6666)
 * Shortcode (usually 3-6 characters) (eg 123, 20010)
