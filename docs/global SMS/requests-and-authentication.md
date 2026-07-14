@@ -17,7 +17,7 @@ Learn the basics of how to make a request and authenticate yourself.
 
 ### Authentication
 
-Authentication is done using HTTP Basic Authentication with your API username and password. [Contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo) to get started
+Authentication is done using HTTP Basic Authentication with your API username and password. Contact [developer relations](https://developers.ringcentral.com/sms-api#requestinfo) to get started
 
 ### Making a Request
 
@@ -57,4 +57,4 @@ If you do not have a fixed IP address, you can also specify the IP address range
 If you need to disable IP address validation, you can set the value to 0.0.0.0/0 (enable all IPv4 addresses).
 
 !!! danger "Security Warning"
-    It is strongly encouraged to whitelist only IP addresses that are used to make HTTP calls to Messente's API.
+    It is strongly encouraged to whitelist only IP addresses that are used to make HTTP calls to the Global SMS API.
