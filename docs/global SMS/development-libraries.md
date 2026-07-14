@@ -154,8 +154,3 @@ We have API libraries for various programming languages. Select your preferred p
     ```
 
     Take a look at the library's [GitHub](https://github.com/messente/messente-api-csharp) and [NuGet](https://www.nuget.org/packages/com.Messente.Api) pages.
-
-[Let us know if your preferred language is not in the list](https://messente.com/contact)
-
-!!! warning
-    These libraries only contain Omnichannel and Phonebook API features. For other Messente features, you need to install different set of libraries. [Libraries page](https://messente.com/documentation/tools/libraries/) contains the list of all our SDKs.
