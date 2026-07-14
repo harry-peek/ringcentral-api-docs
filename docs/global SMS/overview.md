@@ -1,20 +1,9 @@
 # Overview
 
-Follow the guide to add SMS messages to your application in minutes.
-
----
-
-Sending a message using the API is a three-step process.
-
-1. [Sign up](https://dashboard.messente.com/register) to Messente and [receive your API keys](https://dashboard.messente.com/api-settings) (no credit card required).
-2. Verify your phone number as sender ID or request a [branded Sender name](sender-name.md).
-3. Using the API keys, make an API request with the desired message and recipient.
+To get started [contact Developer Relations](https://developers.ringcentral.com/sms-api#requestinfo)
 
 !!! tip 
     Upon sign up we will add you some free credits so you can test out the service immediately. With it you can send a few test messages.
-
-!!! warning "API key required"
-    Follow this guide to send a message, once you have [received your API keys](https://dashboard.messente.com/api-settings).
 
 ## Install a library
 
