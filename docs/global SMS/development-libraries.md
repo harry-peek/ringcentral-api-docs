@@ -5,7 +5,7 @@ Develop with our API libraries to get the fastest integration experience.
 ---
 
 !!! warning
-    Make sure you have [signed up](https://dashboard.messente.com/register) and have your [API keys](https://dashboard.messente.com/api-settings).
+   To get started contact [Developer Relations](https://developers.ringcentral.com/sms-api#requestinfo).
 
 ## Install a library
 
