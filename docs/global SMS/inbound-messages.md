@@ -44,7 +44,7 @@ X-Messente-Signature: 9a398f4a9ce4f96077e70b65d208420640aabb158c224bd0f29391d673
 
 ## Validating the request authenticity
 
-Messente provides every request with signature calculated using [HMAC](https://en.wikipedia.org/wiki/HMAC). The signature is calculated using the Shared Secret, available in the Inbound Numbers section of the Developers view.
+Every request is provided with a signature calculated using [HMAC](https://en.wikipedia.org/wiki/HMAC). The signature is calculated using the Shared Secret, available in the Inbound Numbers section of the Developers view.
 
 Calculated signature is provided in the HTTP headers called `X-Messente-Signature`.
 
