@@ -29,7 +29,7 @@ Messente will make a HTTP POST request to the URL in dlr_url property for every 
 
 The provided Delivery report URL (dlr_url) endpoint should respond with a HTTP status code within the range 200-399, otherwise the DRL will be considered undelivered.
 
-To [validate the authenticity](https://messente.com/documentation/api-setup/security/) of callback request, you can use the X-Messente-Signature header.
+To validate the authenticity of callback request, you can use the X-Messente-Signature header.
 
 === "Python"
 
