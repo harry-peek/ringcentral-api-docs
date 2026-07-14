@@ -6,14 +6,14 @@ Delivery reports are a way to track if your messages are getting sent properly.
 
 ## What is a delivery report?
 
-After receiving a message, the handset responds to the operator with Delivery Report (DLR) so that Messente knows if and when the message was delivered.
+After receiving a message, the handset responds to the operator with Delivery Report (DLR) to indicate if and when the message was delivered.
 
-Each time you send a message, Messente generates an ID that is unique to this particular message.
+Each time you send a message, we generate an ID that is unique to this particular message.
 
 !!! note
     There are 2 ways you can get the status of the sent messages:
 
-    * Add a callback URL to your message. Messente will make a POST request with the relevant information to the callback any time the message status changes (suggested option).
+    * Add a callback URL to your message. The service will make a POST request with the relevant information to the callback any time the message status changes (suggested option).
     * You can request a delivery report by manually making a call to the API.
 
 !!! tip
