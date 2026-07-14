@@ -1,6 +1,6 @@
-# Overview
+# Getting Started
 
-To get started [contact Developer Relations](https://developers.ringcentral.com/sms-api#requestinfo)
+To get started contact [Developer Relations](https://developers.ringcentral.com/sms-api#requestinfo)
 
 !!! tip 
     Upon sign up we will add you some free credits so you can test out the service immediately. With it you can send a few test messages.
@@ -205,7 +205,7 @@ Use the following example to send an SMS using Omnichannel API.
 
 ## Get delivery reports
 
-Messente tracks your sent message and reports [status updates](delivery-report.md) back to you.
+[Status updates](delivery-report.md) are reported back to you.
 
 To be able to view the status, you must add a callback URL to the message. We will use this URL to make HTTP POST requests, if there is a status update.
 
@@ -257,7 +257,7 @@ Here is a code snippet for you to test it out quickly.
 
 ## Send an SMS with Omnichannel API
 
-You can also use the Omnichannel API to send an SMS message directly.
+You can also use the Global Business API to send an SMS message directly.
 
 === "Python"
 
