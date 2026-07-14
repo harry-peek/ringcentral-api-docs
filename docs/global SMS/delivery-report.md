@@ -17,13 +17,13 @@ Each time you send a message, we generate an ID that is unique to this particula
     * You can request a delivery report by manually making a call to the API.
 
 !!! tip
-    The easiest way to use Omnichannel API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
+    The easiest way to use the Global Business SMS API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
 
 ---
 
 ## Option 1. Add a callback URL to the message
 
-Messente will make a HTTP POST request to the URL in dlr_url property for every status update.
+A HTTP POST request is made to the URL in dlr_url property for every status update.
 
 ### Callback URL
 
@@ -179,7 +179,7 @@ Example of a successful message.
 ### Difference between `omnimessage_id` and `message_id`
 `message_id` is a unique identifier for a single message and `omnimessage_id` groups messages that are sent with multi-channel fallback.
 
-Although Omnichannel API can easily be used to send single messages we've built it with multi-channel capabilities in mind. To allow easy migration between the two we add `omnimessage_id` to every message.
+Although the API can easily be used to send single messages we've built it with multi-channel capabilities in mind. To allow easy migration between the two we add `omnimessage_id` to every message.
 
 ---
 
