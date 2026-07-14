@@ -11,11 +11,11 @@ Handling inbound SMS for two-way communication.
 ---
 
 !!! tip
-    The easiest way to use Omnichannel API is with our [official libraries](development-libraries.md). Libraries will take care of authentication, request validation and response handling.
+    The easiest way to use Global Business SMS is with our [official libraries](development-libraries.md). Libraries will take care of authentication, request validation and response handling.
 
 ## Inbound Message Callback
 
-Messente makes a HTTP POST request with JSON content to configured Inbound Number Callback URL with the following request parameters:
+We makes a HTTP POST request with JSON content to configured Inbound Number Callback URL with the following request parameters:
 
 * msg_id
 * sub_msg_id
