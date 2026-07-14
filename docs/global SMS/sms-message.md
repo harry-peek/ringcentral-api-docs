@@ -100,8 +100,6 @@ Messente forwards the SMS request to the operators, who, in turn, will retry SMS
 
 That being said, operators differ in their policies so some may retry SMS delivery up to 48 hours in total, starting with shorter retry intervals and switching to longer retry intervals towards the end. Some, on the other hand, may only retry for the required minimum of 6 hours indicated by us.
 
-!!! info "SMPP protocol"
-    Although we don't encourage it, we also support SMPP protocol for sending SMS messages. Learn how to set up [SMPP integration](https://messente.com/documentation/smpp-api/).
 
 ### Error example
 
