@@ -52,7 +52,7 @@ curl -X POST \
 
 We recommend configuring your account to allow API requests only from certain IPs.
 
-If you do not have a fixed IP address, you can also specify the [IP address ranges](https://messente.com/blog/messente/whitelist-ip-address-range-sms-api) in CIDR notation.
+If you do not have a fixed IP address, you can also specify the IP address ranges in CIDR notation.
 
 If you need to disable IP address validation, you can set the value to 0.0.0.0/0 (enable all IPv4 addresses).
 
