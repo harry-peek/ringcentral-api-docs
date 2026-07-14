@@ -200,7 +200,6 @@ There can be various reasons why a message wasn't delivered or hasn't been deliv
 | NACK | The message delivery has been rejected |
 | SEEN | The message has been seen by the recipient |
 
-[Complete API Specification](https://messente.com/documentation/messente-api/omnimessage/)
 
 ## Our IP Addresses
 
