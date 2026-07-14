@@ -77,11 +77,11 @@ There are few things to keep in mind when composing SMS messages.
 
 ### Be aware of non-GSM friendly characters
 
-A single SMS can contain 160 characters. However, SMS is built to use 7-bit GSM 03.38 character encoding set and this means that certain unicode characters (that are not in GSM character set) don't fit into the message. You can use our [SMS calculator](https://messente.com/sms-length-calculator) to check how many characters your message contains and how many SMS messages it will take to send it.
+A single SMS can contain 160 characters. However, SMS is built to use 7-bit GSM 03.38 character encoding set and this means that certain unicode characters (that are not in GSM character set) don't fit into the message. You can use an SMS length calculator to check how many characters your message contains and how many SMS messages it will take to send it.
 
 If your message contains any characters not listed in the 7-bit alphabet then the message encoding will be set to UCS-2. With it, the message length is limited to 70 characters.
 
-**By default, the API will [convert all non-GSM](https://messente.com/documentation/tools/autoreplace/) friendly characters to similar characters in GSM 03.38 encoding set.** This allows you to send messages with non-unicode characters and not worry about the GSM specification.
+**By default, the API will convert all non-GSM friendly characters to similar characters in GSM 03.38 encoding set.** This allows you to send messages with non-unicode characters and not worry about the GSM specification.
 
 !!! info
     You can turn the character replace feature off by configuring the `autoconvert` parameter in the message.
@@ -89,10 +89,6 @@ If your message contains any characters not listed in the 7-bit alphabet then th
     ```text
     autoconvert: on(default)|full|off
     ```
-
-[SMS Length Calculator](https://messente.com/sms-length-calculator)
-
-[How to configure which characters get replaced](https://messente.com/documentation/tools/autoreplace/)
 
 ## Message Validity and Retry Policy
 
