@@ -1,11 +1,6 @@
 
 # Introduction to Global Business SMS
 
-
-Welcome to the RingCentral developer community! As part of our commitment to expanding our global communications suite, **Messente is now a RingCentral company**.
-
-While we work behind the scenes to deeply integrate Messente’s infrastructure into the core RingCentral developer platform, developers can immediately leverage Messente’s powerful Omnichannel messaging APIs to scale their global user engagement.
-
 !!! info "Independent Account Required: To get started [contact developer relations](https://developers.ringcentral.com/sms-api#requestinfo)"
 
 
