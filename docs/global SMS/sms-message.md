@@ -1,11 +1,11 @@
 # SMS Message
 
-Sending SMS messages with Omnichannel API.
+Sending SMS messages with the Global Business SMS API.
 
 ---
 
 !!! tip
-    The easiest way to use Omnichannel API is with our [official libraries](development-libraries.md). Libraries will take care of authentication, request validation and response handling.
+    The easiest way to use the Global Business SMS API is with our [official libraries](development-libraries.md). Libraries will take care of authentication, request validation and response handling.
 
 ## Send a single SMS
 
@@ -92,7 +92,7 @@ If your message contains any characters not listed in the 7-bit alphabet then th
 
 ## Message Validity and Retry Policy
 
-Messente forwards the SMS request to the operators, who, in turn, will retry SMS delivery for a **minimum of 6 hours.**
+The SMS request is forwarded to the operators, who, in turn, will retry SMS delivery for a **minimum of 6 hours.**
 
 That being said, operators differ in their policies so some may retry SMS delivery up to 48 hours in total, starting with shorter retry intervals and switching to longer retry intervals towards the end. Some, on the other hand, may only retry for the required minimum of 6 hours indicated by us.
 
