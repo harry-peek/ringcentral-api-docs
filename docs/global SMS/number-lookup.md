@@ -12,18 +12,8 @@ REST API to find out statuses and network info of phone numbers.
 
 This tutorial will guide you through the setup of the Number Lookup API.
 
-!!! info "Independent Account Required: To use the capabilities detailed below, you will need to sign up for a separate account directly via the Messente team. [Contact Messente to Sign-up →](https://messente.com/talk-to-sales)"
+!!! info "Independent Account Required: To get started contact [developer relations](https://developers.ringcentral.com/sms-api#requestinfo)"
 
-1. Log in to your Messente account*.
-2. Obtain your Messente API username and API password from [API Settings page](https://dashboard.messente.com/api-settings).
-3. Start using the API.
-
-!!! note
-    Please [contact sales](https://messente.com/talk-to-sales) if you don't have an account yet.
-
-## Pricing
-
-The cost for Number Lookup API is a fixed **€199 monthly fee** plus a **0.002€ per number lookup** charge.
 
 ## API request authentication
 
@@ -37,7 +27,7 @@ https://api.messente.com
 
 ### Authentication
 
-Authentication is done using HTTP Basic Authentication using your Messente API username and password.
+Authentication is done using HTTP Basic Authentication using your API username and password.
 
 ### Request and response body
 
@@ -83,6 +73,3 @@ curl -X POST \
 
 ---
 
-## Next Steps
-
-Check out a more detailed [Number Lookup API reference](https://messente.com/documentation/messente-api/number-lookup/).
