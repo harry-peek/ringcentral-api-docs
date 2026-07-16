@@ -184,7 +184,7 @@ nav:
     - 'Delivery Report': 'global SMS/delivery-report.md'
     - 'Scheduled Messages': 'global SMS/scheduled-messages.md'
     - 'Inbound Messages': 'global SMS/inbound-messages.md'
-    - 'Number Lookup': 'number-lookup.md'
+    - 'Number Lookup': 'global SMS/number-lookup.md'
   - 'Team Messaging':
     - 'Overview': 'team-messaging/index.md'
     - 'Getting Started': 'team-messaging/quick-start.md'
