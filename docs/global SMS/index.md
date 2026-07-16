@@ -20,7 +20,7 @@ Global Business SMS is ideal for high-volume, global bulk messaging with smart r
 
 * **Smart Fallback Routing:** If a rich message (like WhatsApp or Viber) fails to deliver due to connectivity or app availability, the API can automatically fall back to standard SMS within seconds to guarantee delivery.
 * **Global Compliance Built-In:** Built-in tools to manage sender IDs, templates, and local country regulations automatically, ensuring high deliverability rates.
-* **Unified Analytics:** Track delivery statuses, open rates, and conversion metrics across all channels via webhooks or the Messente dashboard.
+* **Unified Analytics:** Track delivery statuses, open rates, and conversion metrics across all channels via webhooks or the dashboard.
 * **Number lookup:** Check number validity and identify mobile vs. landline phones.
 
 ---

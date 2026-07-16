@@ -11,7 +11,7 @@ Learn the basics of how to make a request and authenticate yourself.
 ---
 
 !!! tip
-    The easiest way to use Omnichannel API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
+    The easiest way to use Global Business API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
 
 ## Request
 

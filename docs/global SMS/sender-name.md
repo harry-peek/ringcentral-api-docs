@@ -24,7 +24,7 @@ Global Business SMS supports 3 different types of sender IDs:
     You can have multiple Sender IDs connected to your account and they are free of charge.
 
 !!! info
-    Registering a branded sender name is a manual process and might take 24 hours or longer in some markets. Registration for regular phone number as sender name is automatic and instantaneous.
+    Registering a branded sender name is a manual process and might take 24 hours or more in some markets. Registration for regular phone number as sender name is automatic and instantaneous.
 
 ## Restrictions
 **Phone numbers** as numeric Sender IDs can be up to 15 digits long (excluding the "+" sign) and can include country codes, mobile operator codes, individual phone numbers, destination codes, identifying the subscriber's operator, etc. It's also possible to reply to a phone number by just hitting the reply button.

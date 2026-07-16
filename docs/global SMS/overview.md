@@ -257,7 +257,7 @@ Here is a code snippet for you to test it out quickly.
 
 ## Send an SMS with Omnichannel API
 
-You can also use the Omnichannel API to send an SMS message directly.
+You can also use the Global Business API to send an SMS message directly.
 
 === "Python"
 

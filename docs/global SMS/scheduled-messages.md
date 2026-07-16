@@ -11,7 +11,7 @@ Schedule messages to be sent for later.
 ---
 
 !!! tip
-    The easiest way to use Omnichannel API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
+    The easiest way to use the Global Business SMS API is with our [official libraries](development-libraries.md). They will take care of authentication, request validation and response handling automatically.
 
 ## Schedule a message
 
