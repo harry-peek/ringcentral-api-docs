@@ -57,4 +57,4 @@ If you do not have a fixed IP address, you can also specify the IP address range
 If you need to disable IP address validation, you can set the value to 0.0.0.0/0 (enable all IPv4 addresses).
 
 !!! danger "Security Warning"
-    It is strongly encouraged to whitelist only IP addresses that are used to make HTTP calls to the Global Business API.
+    It is strongly encouraged to whitelist only IP addresses that are used to make HTTP calls to the Global SMS API.
