@@ -77,11 +77,11 @@ curl -X POST \
 | :--- | :--- | :--- |
 | `number` | Number queried in e.164 format | `+15073040148` |
 | `currentNetwork` | Detailed network information object | — |
-| `currentNetwork.mccmnc` | Mobile Country Code and Network Code (e.g., 310 = USA, 170 = AT&T) | `310170` |
-| `currentNetwork.networkName` | Mobile network name | `AT&T Mobility` |
-| `currentNetwork.countryName` | Country name | `United States` |
-| `currentNetwork.countryPrefix` | Country dialling prefix | `+1` |
-| `currentNetwork.countryCode` | Country code | `USA` |
+| ├─`currentNetwork.mccmnc` | Mobile Country Code and Network Code (e.g., 310 = USA, 170 = AT&T) | `310170` |
+| ├─`currentNetwork.networkName` | Mobile network name | `AT&T Mobility` |
+| ├─`currentNetwork.countryName` | Country name | `United States` |
+| ├─`currentNetwork.countryPrefix` | Country dialling prefix | `+1` |
+| ├─`currentNetwork.countryCode` | Country code | `USA` |
 | `ported` | Indicates if a number is ported | `true` |
 | `portedNetwork` | Network information for the network the number was ported to | `null` |
 | `roaming` | Indicates if a number is roaming | `false` |
