@@ -89,7 +89,7 @@ curl -X POST \
 | `status` | Status of phone number. *(Live Toll-Free numbers not text-enabled show as `INVALID`)* | `ON`, `OFF`, `INVALID`, `UNKNOWN` |
 | `type` | Indicates SMS capability: `MOBILE` (Mobiles/text-enabled landlines) or `LANDLINE` (Cannot receive SMS) | `MOBILE`, `LANDLINE` |
 
-## Example response
+#### Example response
 
 ```"numbers": [
         {
