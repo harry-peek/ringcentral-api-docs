@@ -75,19 +75,39 @@ curl -X POST \
 
 | Field | Description | Example |
 | :--- | :--- | :--- |
-| `number` | Number queried in e.164 format | `+15073040148` |
+| `number` | Number queried in e.164 format | e.g. `+15073040148` |
 | `currentNetwork` | Detailed network information object | — |
-| &nbsp;&nbsp;`currentNetwork.mccmnc` | Mobile Country Code and Network Code (e.g., 310 = USA, 170 = AT&T) | `310170` |
-| &nbsp;&nbsp;`currentNetwork.networkName` | Mobile network name | `AT&T Mobility` |
-| &nbsp;&nbsp;`currentNetwork.countryName` | Country name | `United States` |
-| &nbsp;&nbsp;`currentNetwork.countryPrefix` | Country dialling prefix | `+1` |
-| &nbsp;&nbsp;`currentNetwork.countryCode` | Country code | `USA` |
-| `ported` | Indicates if a number is ported | `true` |
-| `portedNetwork` | Network information for the network the number was ported to | `null` |
-| `roaming` | Indicates if a number is roaming | `false` |
-| `roamingNetwork` | Network information for the network the number is roaming on | `null` |
-| `status` | Status of phone number: `ON`, `OFF`, `INVALID`, `UNKNOWN` *(Live Toll-Free numbers not text-enabled show as `INVALID`)* | `ON` |
-| `type` | Indicates SMS capability: `MOBILE` (Mobiles/text-enabled landlines) or `LANDLINE` (Cannot receive SMS) | `MOBILE` |
+| &nbsp;&nbsp;`currentNetwork.mccmnc` | Mobile Country Code and Network Code (e.g., 310 = USA, 170 = AT&T) | e.g. `310170` |
+| &nbsp;&nbsp;`currentNetwork.networkName` | Mobile network name | e.g. `AT&T Mobility` |
+| &nbsp;&nbsp;`currentNetwork.countryName` | Country name | e.g. `United States` |
+| &nbsp;&nbsp;`currentNetwork.countryPrefix` | Country dialling prefix | e.g. `+1` |
+| &nbsp;&nbsp;`currentNetwork.countryCode` | Country code | e.g. `USA` |
+| `ported` | Indicates if a number is ported | `true`, `false` |
+| `portedNetwork` | Network information for the network the number was ported to | `null` / e.g. `T-Mobile` |
+| `roaming` | Indicates if a number is roaming | `true`, `false` |
+| `roamingNetwork` | Network information for the network the number is roaming on | `null` / e.g. `Vodafone` |
+| `status` | Status of phone number. *(Live Toll-Free numbers not text-enabled show as `INVALID`)* | `ON`, `OFF`, `INVALID`, `UNKNOWN` |
+| `type` | Indicates SMS capability: `MOBILE` (Mobiles/text-enabled landlines) or `LANDLINE` (Cannot receive SMS) | `MOBILE`, `LANDLINE` |
 
+##Example response
+
+```"numbers": [
+        {
+            "number": "+15713152421",
+            "currentNetwork": {
+                "mccmnc": "310160",
+                "networkName": "T-Mobile US",
+                "countryName": "United States",
+                "countryPrefix": "+1",
+                "countryCode": "USA"
+            },
+            "ported": true,
+            "portedNetwork": null,
+            "originalNetwork": null,
+            "roaming": false,
+            "roamingNetwork": null,
+            "status": "ON",
+            "type": "MOBILE"
+        }```
 ---
 
